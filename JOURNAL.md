@@ -14,3 +14,9 @@ I still have to add the battery, battery charging IC and all the capacitors resi
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODE3NiwicHVyIjoiYmxvYl9pZCJ9fQ==--617aeeb5e13c95727b4afebcf49ca6c6077ea6e0/image.png)
   
 
+## 11/5/2025 - Research and some circuit building  
+
+So I've been all afternoon reading datasheets and documentation, It's a lot lmao, but I have some circuit build, added usb and powwr supply for the esp, next I need to handle battery charging, step down tp 3.3V, the keyboard etc etc
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODc0NiwicHVyIjoiYmxvYl9pZCJ9fQ==--7823cd6b0ed5c5fa910bfe5a25e87bd1b9103b16/image.png)
+  
+
