@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "57a665bf-6d32-4f6f-a635-a071efc93fed")
 	(paper "A4")
+	(title_block
+		(title "MeshDeck")
+		(company "ThePangel")
+	)
 	(lib_symbols
 		(symbol "MeshDeck:0402WGF0000TCE"
 			(exclude_from_sim no)
@@ -1910,6 +1914,150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MeshDeck:CL05A106MQ5NUNC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL05A106MQ5NUNC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MeshDeck:C0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A106MQ5NUNC_10uF-106-20-6-3V_C15525.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C15525"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05A106MQ5NUNC_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MeshDeck:CL05A226MQ5QUNC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3269,6 +3417,150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MeshDeck:LSCNB1005EETR47MB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LSCNB1005EETR47MB"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MeshDeck:L0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5788770"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LSCNB1005EETR47MB_0_1"
+				(arc
+					(start -4.06 -0.01)
+					(mid -2.83 0.99)
+					(end -2.03 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.03 -0.01)
+					(mid -0.8 0.99)
+					(end 0 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.01)
+					(mid 1.23 0.99)
+					(end 2.03 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 -0.01)
+					(mid 3.26 0.99)
+					(end 4.06 0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.016)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MeshDeck:QR0402F1KQ10"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3746,7 +4038,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MeshDeck:TPS62827ADMQR"
+		(symbol "MeshDeck:TPS6282533DMQR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3758,7 +4050,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS62827ADMQR"
+			(property "Value" "TPS6282533DMQR"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -3793,7 +4085,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C3189972"
+			(property "LCSC Part" "C3189971"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -3802,7 +4094,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS62827ADMQR_0_1"
+			(symbol "TPS6282533DMQR_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 5.08 -5.08)
@@ -5226,6 +5518,12 @@
 		(uuid "7884ef9c-3256-461c-b027-7062101732b1")
 	)
 	(junction
+		(at 115.57 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c0fbc25-4b9b-4de2-ae70-d6d69bf6fc5a")
+	)
+	(junction
 		(at 13.97 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5242,6 +5540,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ae5e257-f99d-4cc8-9665-a11f3aefd6ca")
+	)
+	(junction
+		(at 139.7 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9da79f7f-576d-462d-b408-3d35e8c3ce55")
 	)
 	(junction
 		(at 19.05 171.45)
@@ -5262,10 +5566,34 @@
 		(uuid "afea977f-7878-42b9-8809-34528137f6e6")
 	)
 	(junction
+		(at 129.54 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b380ccf1-facd-49ae-9320-b2467dc924e4")
+	)
+	(junction
+		(at 119.38 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6915b7b-bb5c-4639-b762-f782bbb35e01")
+	)
+	(junction
+		(at 134.62 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc6b7246-1df3-40aa-a74b-411b2ed10329")
+	)
+	(junction
 		(at 13.97 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da5ae29b-e705-4e5b-9604-59259d21cf7b")
+	)
+	(junction
+		(at 134.62 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de2486c3-b187-4baa-ac14-a2eafadf0009")
 	)
 	(junction
 		(at 39.37 55.88)
@@ -5291,6 +5619,12 @@
 		(color 0 0 0 0)
 		(uuid "ed591088-4989-4ed7-97d7-b889e01f14ce")
 	)
+	(junction
+		(at 146.05 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f069cc0e-9d59-499c-b383-f175f712100e")
+	)
 	(no_connect
 		(at 31.75 102.87)
 		(uuid "6b1cebab-74f1-4a83-b452-0362c7fde3dd")
@@ -5302,6 +5636,10 @@
 	(no_connect
 		(at 60.96 171.45)
 		(uuid "6c14e19c-8b14-42a5-8c4d-861f4884ef83")
+	)
+	(no_connect
+		(at 97.79 167.64)
+		(uuid "8008d226-f9b8-4337-a22e-605fa7016fe3")
 	)
 	(no_connect
 		(at 31.75 87.63)
@@ -5509,6 +5847,46 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 165.1) (xy 97.79 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c25c22a-3299-4de6-ac8b-615ab95aff77")
+	)
+	(wire
+		(pts
+			(xy 134.62 165.1) (xy 139.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f98e2e8-0e72-476a-a227-71953894b57b")
+	)
+	(wire
+		(pts
+			(xy 97.79 156.21) (xy 115.57 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4697548e-9c47-4ba8-be40-04fa8f332e9c")
+	)
+	(wire
+		(pts
+			(xy 129.54 165.1) (xy 134.62 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4795cfb7-e035-4562-9716-ee489f0d9adb")
+	)
+	(wire
+		(pts
 			(xy 68.58 93.98) (xy 72.39 93.98)
 		)
 		(stroke
@@ -5516,6 +5894,26 @@
 			(type default)
 		)
 		(uuid "490a9d8e-74d9-4d22-aced-d48d12eb5727")
+	)
+	(wire
+		(pts
+			(xy 115.57 156.21) (xy 115.57 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8f7537-f338-408b-856b-eb80ce0f23b8")
+	)
+	(wire
+		(pts
+			(xy 97.79 170.18) (xy 97.79 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b3acf8-11b8-4e4a-80cb-8248e901d68f")
 	)
 	(wire
 		(pts
@@ -5619,6 +6017,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 165.1) (xy 146.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74163c62-d495-4334-b6ec-d9a4d0f39fa9")
+	)
+	(wire
+		(pts
+			(xy 97.79 179.07) (xy 146.05 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768e3a69-f67d-4001-b9b4-14020acae3aa")
+	)
+	(wire
+		(pts
 			(xy 74.93 101.6) (xy 68.58 101.6)
 		)
 		(stroke
@@ -5679,7 +6097,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 99.06) (xy 93.98 99.06)
+			(xy 152.4 97.79) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5709,16 +6127,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 71.12) (xy 104.14 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a66dc1f9-e875-4082-9bfa-55dc172ab046")
-	)
-	(wire
-		(pts
 			(xy 20.32 55.88) (xy 20.32 53.34)
 		)
 		(stroke
@@ -5729,7 +6137,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 101.6) (xy 93.98 101.6)
+			(xy 152.4 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5779,13 +6187,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 73.66) (xy 104.14 73.66)
+			(xy 163.83 72.39) (xy 170.18 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5b6f8ed-d34c-4c80-9ae2-47f0727b4b19")
+	)
+	(wire
+		(pts
+			(xy 129.54 172.72) (xy 134.62 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7114052-d5ab-483e-af0f-2b692a3a4a74")
 	)
 	(wire
 		(pts
@@ -5826,6 +6244,16 @@
 			(type default)
 		)
 		(uuid "cd111752-7478-4ff1-823b-ae686a6e443f")
+	)
+	(wire
+		(pts
+			(xy 146.05 165.1) (xy 139.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce550755-f659-44ce-b5b4-b461313eeeff")
 	)
 	(wire
 		(pts
@@ -5879,13 +6307,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 147.32) (xy 87.63 147.32)
+			(xy 81.28 147.32) (xy 91.44 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e2e88f83-24dc-4a30-9a55-290c3039da17")
+	)
+	(wire
+		(pts
+			(xy 134.62 172.72) (xy 139.7 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39b16b4-e0d8-4f2d-b566-0c79f9e3883a")
 	)
 	(wire
 		(pts
@@ -5909,6 +6347,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 179.07) (xy 146.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b736aa-5e67-41e1-9569-26bd431bc64d")
+	)
+	(wire
+		(pts
 			(xy 60.96 163.83) (xy 81.28 163.83)
 		)
 		(stroke
@@ -5916,6 +6364,16 @@
 			(type default)
 		)
 		(uuid "e8c4a5ed-f596-42ff-9bd7-57e9ebb5b183")
+	)
+	(wire
+		(pts
+			(xy 115.57 165.1) (xy 119.38 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea87ee14-ea64-4a08-9aeb-9826c17b2e18")
 	)
 	(wire
 		(pts
@@ -5939,6 +6397,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 165.1) (xy 129.54 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb31907-1a59-4779-a760-09cae2868cc8")
+	)
+	(wire
+		(pts
 			(xy 25.4 22.86) (xy 33.02 22.86)
 		)
 		(stroke
@@ -5956,6 +6424,16 @@
 			(type default)
 		)
 		(uuid "fc29f051-927b-4577-a9f1-3226d0aa016b")
+	)
+	(label "BCC_OUT"
+		(at 129.54 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f1bd778-ced9-46b9-9712-a65be310235f")
 	)
 	(label "VBUS"
 		(at 38.1 105.41 180)
@@ -5987,18 +6465,8 @@
 		)
 		(uuid "2fd0e43b-195c-44a6-b85d-444b0b0ca5f2")
 	)
-	(label "3V3"
-		(at 97.79 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37e5f8ab-dd5b-4814-8c86-3c9f4b84ff31")
-	)
-	(label "OUT"
-		(at 87.63 147.32 180)
+	(label "BCC_OUT"
+		(at 91.44 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6028,7 +6496,7 @@
 		(uuid "70e4ce92-c66f-482f-8ea8-5fd79beac491")
 	)
 	(label "USB_D-"
-		(at 86.36 99.06 0)
+		(at 152.4 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6038,7 +6506,7 @@
 		(uuid "72d1e11d-39fb-4f7b-b7b9-2ab7157be044")
 	)
 	(label "USB_D+"
-		(at 86.36 101.6 0)
+		(at 152.4 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6098,7 +6566,7 @@
 		(uuid "c78c9a84-37ec-4801-a422-6a8338442b9c")
 	)
 	(label "EN"
-		(at 97.79 73.66 0)
+		(at 163.83 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6599,32 +7067,33 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:0402WGF0000TCE")
-		(at 99.06 101.6 0)
+		(lib_id "MeshDeck:TPS6282533DMQR")
+		(at 107.95 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ba368de-35c9-4bb5-846f-35be45a6287f")
-		(property "Reference" "R3"
-			(at 99.06 104.14 0)
+		(fields_autoplaced yes)
+		(uuid "172ac4ce-6f1e-424a-837b-b5b9ec6f237b")
+		(property "Reference" "U3"
+			(at 106.68 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0 Ohm"
-			(at 99.06 106.68 0)
+		(property "Value" "TPS6282533DMQR"
+			(at 106.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MeshDeck:R0402"
-			(at 99.06 109.22 0)
+		(property "Footprint" "MeshDeck:VSON-6_L1.5-W1.5-P0.50-TL"
+			(at 107.95 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,8 +7101,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
-			(at 99.06 111.76 0)
+		(property "Datasheet" ""
+			(at 107.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +7111,95 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 101.6 0)
+			(at 107.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3189971"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0835ba95-82ab-46d9-afb7-a9421d613e4d")
+		)
+		(pin "3"
+			(uuid "24e7866c-544f-4511-914d-5eef505f0ced")
+		)
+		(pin "6"
+			(uuid "eb47617d-5431-4fef-b1db-9ce3e9d31dbe")
+		)
+		(pin "5"
+			(uuid "23fce63b-c8e8-4fe9-9cc6-14dc41bad1b3")
+		)
+		(pin "4"
+			(uuid "654b297d-df87-40be-98c1-3758034a8c8f")
+		)
+		(pin "1"
+			(uuid "57c11ab9-edbd-4ac0-a6c7-bd41fa55eb9c")
+		)
+		(instances
+			(project ""
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MeshDeck:0402WGF0000TCE")
+		(at 165.1 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba368de-35c9-4bb5-846f-35be45a6287f")
+		(property "Reference" "R3"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 Ohm"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MeshDeck:R0402"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +7208,7 @@
 			)
 		)
 		(property "LCSC Part" "C17168"
-			(at 99.06 114.3 0)
+			(at 165.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +7309,7 @@
 	)
 	(symbol
 		(lib_id "MeshDeck:0402WGF0000TCE")
-		(at 99.06 99.06 0)
+		(at 165.1 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6760,7 +7317,7 @@
 		(dnp no)
 		(uuid "2406efbf-8b36-4054-a02b-993fb60d0db7")
 		(property "Reference" "R4"
-			(at 99.06 97.028 0)
+			(at 165.1 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +7325,7 @@
 			)
 		)
 		(property "Value" "0 Ohm"
-			(at 99.06 95.25 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +7333,7 @@
 			)
 		)
 		(property "Footprint" "MeshDeck:R0402"
-			(at 99.06 106.68 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +7342,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
-			(at 99.06 109.22 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +7351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 99.06 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +7360,7 @@
 			)
 		)
 		(property "LCSC Part" "C17168"
-			(at 99.06 111.76 0)
+			(at 165.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,33 +7460,34 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:TPS62827ADMQR")
-		(at 185.42 139.7 0)
+		(lib_id "MeshDeck:CL05A106MQ5NUNC")
+		(at 129.54 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26682f10-11db-424d-9494-41325ae937cf")
-		(property "Reference" "U3"
-			(at 184.15 129.54 0)
+		(uuid "2603d758-297f-475e-a522-057cea4e8079")
+		(property "Reference" "C10"
+			(at 125.73 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "TPS62827ADMQR"
-			(at 184.15 132.08 0)
+		(property "Value" "10uF"
+			(at 124.206 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MeshDeck:VSON-6_L1.5-W1.5-P0.50-TL"
-			(at 185.42 149.86 0)
+		(property "Footprint" "MeshDeck:C0402"
+			(at 137.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,8 +7495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 139.7 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A106MQ5NUNC_10uF-106-20-6-3V_C15525.html"
+			(at 139.7 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,15 +7505,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C3189972"
-			(at 185.42 152.4 0)
+			(at 129.54 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,28 +7513,25 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "c7bbec4b-9037-449e-be96-bd8e5b7c65b9")
-		)
-		(pin "6"
-			(uuid "5794700f-4a53-48a6-a512-0fbf61621d32")
-		)
-		(pin "4"
-			(uuid "586add41-d773-484f-bd2c-3232011b06d3")
-		)
-		(pin "1"
-			(uuid "85f90ff1-5339-4ff2-a3d1-6ef75142359a")
+		(property "LCSC Part" "C15525"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "0571064c-d8c7-4893-8410-8ce5f93cb822")
+			(uuid "19492b67-9527-40c7-91fd-5eac43eede35")
 		)
-		(pin "5"
-			(uuid "047b4b06-2d53-4490-bafb-9fdf2ef71986")
+		(pin "1"
+			(uuid "c359477b-32db-4ec5-b3d0-bc38aa28149c")
 		)
 		(instances
-			(project "MeshDeck"
+			(project ""
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "U3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6992,7 +7539,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 68.58 90)
+		(at 213.36 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7001,7 +7548,7 @@
 		(fields_autoplaced yes)
 		(uuid "26d45190-c7e8-4504-976b-2eb241f65f4d")
 		(property "Reference" "#PWR08"
-			(at 153.67 68.58 0)
+			(at 219.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 68.5799 90)
+			(at 217.17 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +7566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 68.58 0)
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 68.58 0)
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 68.58 0)
+			(at 213.36 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,7 +7684,7 @@
 	)
 	(symbol
 		(lib_id "MeshDeck:ATGM336H-6N-74")
-		(at 189.23 113.03 0)
+		(at 255.27 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7146,7 +7693,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bfe6d17-9872-4980-be01-3c8a700578f4")
 		(property "Reference" "CN1"
-			(at 189.23 95.25 0)
+			(at 255.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7701,7 @@
 			)
 		)
 		(property "Value" "ATGM336H-6N-74"
-			(at 189.23 97.79 0)
+			(at 255.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7709,7 @@
 			)
 		)
 		(property "Footprint" "MeshDeck:COMM-SMD_18P-L10.1-W9.7-P1.1-TL_L76-LB"
-			(at 189.23 130.81 0)
+			(at 255.27 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 113.03 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 113.03 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7735,7 @@
 			)
 		)
 		(property "LCSC Part" "C5804601"
-			(at 189.23 133.35 0)
+			(at 255.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7885,7 @@
 	)
 	(symbol
 		(lib_id "MeshDeck:SX1262S8S+T-X1")
-		(at 187.96 78.74 0)
+		(at 254 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7347,7 +7894,7 @@
 		(fields_autoplaced yes)
 		(uuid "31c193ad-6606-47f0-94d0-7293fb2dd6c1")
 		(property "Reference" "U2"
-			(at 187.96 63.5 0)
+			(at 254 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7902,7 @@
 			)
 		)
 		(property "Value" "SX1262S8S+T-X1"
-			(at 187.96 66.04 0)
+			(at 254 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7910,7 @@
 			)
 		)
 		(property "Footprint" "MeshDeck:WIRELM-SMD_SX1278S165SY-T-X1"
-			(at 187.96 96.52 0)
+			(at 254 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7919,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Wireless-Modules_Vollgo-SX1262S8S-T-X1_C718838.html"
-			(at 187.96 99.06 0)
+			(at 254 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 78.74 0)
+			(at 254 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7936,7 @@
 			)
 		)
 		(property "LCSC Part" "C718838"
-			(at 187.96 101.6 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,6 +8486,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51239bda-3ddd-48ab-81c8-352bc9084d9f")
+		(property "Reference" "#PWR022"
+			(at 121.92 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af152583-caee-4717-975a-a1dc1fb440b7")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MeshDeck:0402WGF5101TCE")
 		(at 24.13 119.38 0)
 		(unit 1)
@@ -8016,33 +8630,35 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:ESP32-S3-WROOM-1(N16R8)")
-		(at 125.73 80.01 0)
+		(lib_id "power:+3.3V")
+		(at 148.59 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "608be189-af6d-47ce-a537-5ac255e43dc8")
-		(property "Reference" "U1"
-			(at 125.73 38.1 0)
+		(uuid "5e23e7b1-b554-40cd-86b9-9b0a8b68576e")
+		(property "Reference" "#PWR025"
+			(at 144.78 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1(N16R8)"
-			(at 125.73 40.64 0)
+		(property "Value" "+3.3V"
+			(at 152.4 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MeshDeck:WIRELM-SMD_ESP32-S3-WROOM-1"
-			(at 125.73 123.19 0)
+		(property "Footprint" ""
+			(at 148.59 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8667,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 80.01 0)
+			(at 148.59 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 148.59 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58dab83a-9460-453a-b2dd-7a187a1c109e")
+		)
+		(instances
+			(project ""
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MeshDeck:ESP32-S3-WROOM-1(N16R8)")
+		(at 191.77 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "608be189-af6d-47ce-a537-5ac255e43dc8")
+		(property "Reference" "U1"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-S3-WROOM-1(N16R8)"
+			(at 191.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MeshDeck:WIRELM-SMD_ESP32-S3-WROOM-1"
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 80.01 0)
+			(at 191.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8749,7 @@
 			)
 		)
 		(property "LCSC Part" "C2913202"
-			(at 125.73 125.73 0)
+			(at 191.77 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,6 +9032,84 @@
 		)
 	)
 	(symbol
+		(lib_id "MeshDeck:CL05A106MQ5NUNC")
+		(at 139.7 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6415d119-b00e-48ed-b09c-725e4b4ac5a5")
+		(property "Reference" "C12"
+			(at 140.462 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 135.382 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MeshDeck:C0402"
+			(at 147.32 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A106MQ5NUNC_10uF-106-20-6-3V_C15525.html"
+			(at 149.86 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15525"
+			(at 152.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e99659f-a7b5-4b39-94f0-18b79605d3b7")
+		)
+		(pin "1"
+			(uuid "39cea0ae-2194-4566-b0c2-fd97d06bc51e")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 33.02 0)
 		(unit 1)
@@ -8497,7 +9256,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 64.77 90)
+		(at 213.36 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8506,7 +9265,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a9bbc26-0bb0-43be-8dcd-d2c7e3b299f2")
 		(property "Reference" "#PWR07"
-			(at 153.67 64.77 0)
+			(at 219.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,7 +9274,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 64.7699 90)
+			(at 217.17 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,7 +9283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 64.77 0)
+			(at 213.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +9292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 64.77 0)
+			(at 213.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8542,7 +9301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 64.77 0)
+			(at 213.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,6 +9561,84 @@
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MeshDeck:CL05A106MQ5NUNC")
+		(at 134.62 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e931eed-7f3a-47a8-88e9-1d714fd38e06")
+		(property "Reference" "C11"
+			(at 130.556 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 129.794 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MeshDeck:C0402"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A106MQ5NUNC_10uF-106-20-6-3V_C15525.html"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15525"
+			(at 147.32 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c1fb1bd-5dad-44c2-b83d-e4544949775e")
+		)
+		(pin "1"
+			(uuid "da758861-f545-42d2-8122-951e2c029fd7")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9107,6 +9944,72 @@
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb2f7252-2bf3-44bd-b092-36fe49c946be")
+		(property "Reference" "#PWR024"
+			(at 134.62 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55ff0e2b-f439-4dbf-ab12-5a39b1862c16")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9466,6 +10369,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 170.18 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c078f100-9121-40db-ab88-647f92fc05b5")
+		(property "Reference" "#PWR026"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 166.37 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 170.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd8e5e29-63ad-4721-a572-1d4c8f8309e6")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MeshDeck:CL05A226MQ5QUNC")
 		(at 25.4 27.94 270)
 		(unit 1)
@@ -9621,6 +10591,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 119.38 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d07cff74-1a0c-44a0-bd15-ea94272229f8")
+		(property "Reference" "#PWR023"
+			(at 119.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8546009e-7ee3-41c1-b6d4-1ee0dd063dc0")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 19.05 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9754,7 +10790,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 68.58 270)
+		(at 170.18 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9762,7 +10798,7 @@
 		(dnp no)
 		(uuid "e458753b-32fa-4ba6-97a0-456974e11dbd")
 		(property "Reference" "#PWR06"
-			(at 97.79 68.58 0)
+			(at 163.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +10807,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.092 67.564 90)
+			(at 167.132 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +10816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 68.58 0)
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +10825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 68.58 0)
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +10834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 68.58 0)
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,6 +10849,82 @@
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MeshDeck:LSCNB1005EETR47MB")
+		(at 120.65 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f134dc29-43e0-44cf-8c47-8006c0e9845c")
+		(property "Reference" "L1"
+			(at 120.65 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47 µH"
+			(at 120.904 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MeshDeck:L0402"
+			(at 120.65 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5788770"
+			(at 120.65 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6ae9417-7209-4fa8-9fcc-3f7514898aed")
+		)
+		(pin "2"
+			(uuid "5dce9c53-414f-42ac-ad5d-6ce217f023cd")
+		)
+		(instances
+			(project ""
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9945,6 +11057,82 @@
 			(project ""
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MeshDeck:CL05A475MP5NRNC")
+		(at 119.38 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc810d40-749f-4b94-8578-613eeadcfb9a")
+		(property "Reference" "C9"
+			(at 122.682 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 123.444 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MeshDeck:C0402"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A475MP5NRNC_4-7uF-475-20-10V_C23733.html"
+			(at 129.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b61680a5-9265-4b13-8284-39e73a9e7553")
+		)
+		(pin "2"
+			(uuid "d24062c6-9c7f-4739-911b-cc0f8d1df24a")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "C9")
 					(unit 1)
 				)
 			)
