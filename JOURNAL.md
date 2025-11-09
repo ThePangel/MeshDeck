@@ -20,9 +20,15 @@ So I've been all afternoon reading datasheets and documentation, It's a lot lmao
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODc0NiwicHVyIjoiYmxvYl9pZCJ9fQ==--7823cd6b0ed5c5fa910bfe5a25e87bd1b9103b16/image.png)
   
 
-## 11/9/2025 - Charging IC circuit   
+## 11/9/2025 3 PM - Charging IC circuit   
 
 After like an a couple of hours of reading a datasheet, finding components, etc, I have finished my charging circuit with the BQ24074RGTR as the brains!
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTc1MCwicHVyIjoiYmxvYl9pZCJ9fQ==--6db17ea34a84ff7db8e2888dffbfd49ea1b7de91/image.png)
+  
+
+## 11/9/2025 4 PM - Added 3.3V step down converter  
+
+To step down the battery voltage to 3.3V i added a TPS6282533DMQ set down converter, to be able to power all my 3.3V components safely, rated for 2A it should be enough.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTc2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--ec4888cf4eb6b446aefdd227c4cb9296bbe64908/image.png)
   
 
