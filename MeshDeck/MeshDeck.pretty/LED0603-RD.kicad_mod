@@ -1,0 +1,259 @@
+(footprint "LED0603-RD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "5db07b85-dde0-450a-ab6b-59c2aa1fb81f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED0603-RD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "4f99d5c5-0fcf-473e-8301-1ea3f939e235")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a0c8bd7-da61-4a07-b378-862e05726967")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ac01066-77b7-4415-8280-e472b80f8192")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.49 -0.45)
+		(end -1.19 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a10dddf8-b07e-450b-bbf5-1c07113d0f48")
+	)
+	(fp_line
+		(start -1.49 -0.35)
+		(end -1.49 -0.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cc47f75-da77-4d33-b3be-84b61457feaa")
+	)
+	(fp_line
+		(start -1.49 -0.35)
+		(end -1.49 0.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7ef7c2e-c73e-4eda-9c84-a224b7c153d2")
+	)
+	(fp_line
+		(start -1.49 0.35)
+		(end -1.49 0.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da745731-11f7-41b1-8122-67e5e7fc787e")
+	)
+	(fp_line
+		(start -1.49 0.45)
+		(end -1.19 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a7fe0b5-024b-4bfe-ae94-7ad14a775c97")
+	)
+	(fp_line
+		(start -0.14 -0.75)
+		(end -1.19 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09f76952-9c6c-46c1-9a77-7f9cadafaf8e")
+	)
+	(fp_line
+		(start -0.14 0.75)
+		(end -1.19 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb97aeaf-dd4f-4d5b-bebe-1b7e40e36e33")
+	)
+	(fp_line
+		(start 0.21 0.33)
+		(end -0.12 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba587157-6404-467b-a98a-919cf9bd8ef1")
+	)
+	(fp_line
+		(start 0.22 -0.35)
+		(end 0.22 -0.34)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a530964c-3754-4347-a491-02b1dfc9a68a")
+	)
+	(fp_line
+		(start 0.22 -0.35)
+		(end 0.22 0.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7804e2d7-e13b-42d9-89eb-268158aa07b3")
+	)
+	(fp_line
+		(start 0.22 -0.34)
+		(end -0.12 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcc6fcbb-d6a1-4fd5-935e-a211b7707f10")
+	)
+	(fp_line
+		(start 0.22 0)
+		(end -0.12 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32997504-bc93-4b8a-a1ef-30ccd591157a")
+	)
+	(fp_line
+		(start 0.22 0.33)
+		(end 0.21 0.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a81b1ef8-5b0f-43ad-b895-21d141f7e76b")
+	)
+	(fp_line
+		(start 0.24 -0.75)
+		(end 1.39 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5920249-2872-41fd-9e92-1816553cdc4a")
+	)
+	(fp_line
+		(start 0.24 0.75)
+		(end 1.39 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f112da6-8186-415a-af1c-b84cd7df0a75")
+	)
+	(fp_line
+		(start 1.39 -0.75)
+		(end 1.39 0.73)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72b883f5-a28f-4fec-9708-a6de39c76b5c")
+	)
+	(fp_circle
+		(center -0.8 0.4)
+		(end -0.77 0.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6c2a3ea-ccc4-4222-b2ae-a89ffc9fb2cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "44ad70dd-dd60-4bad-a1c2-b95cf8cd6017")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92f9befb-f8b2-410c-9bfb-2c3455d18a9b")
+	)
+	(pad "2" smd rect
+		(at 0.8 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "41f38219-4e4a-4588-8582-9a83d40fced2")
+	)
+	(embedded_fonts no)
+	(model "/MeshDeck.3dshapes/LED0603-RD.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

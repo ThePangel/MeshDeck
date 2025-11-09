@@ -1,75 +1,336 @@
-(module easyeda2kicad:USB-C_SMD-TYPE-C-31-M-12_1 (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "USB-C_SMD-TYPE-C-31-M-12_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.47 0)
+		(layer "F.SilkS")
+		(uuid "042bb808-921b-44a5-910a-1c458f7d9509")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB-C_SMD-TYPE-C-31-M-12_1"
+		(at 0 6.47 0)
+		(layer "F.Fab")
+		(uuid "6a81dcfd-045d-4523-84fe-f1fc34cc3b3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f276b99c-f9ea-420e-b475-43852c3066ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8db094bc-87b2-4eb2-86ee-b85871c4c69d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -6.470000000000001) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -4.47 1.38)
+		(end -4.47 -0.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65aa61d1-1561-43ac-9b5e-0030c8dc440b")
 	)
-	(fp_text value USB-C_SMD-TYPE-C-31-M-12_1 (at 0 6.470000000000001) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -4.47 5.1)
+		(end -4.47 3.62)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b109c88d-6033-49dc-8cc5-b260f4599d0f")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start 4.47 1.38)
+		(end 4.47 -0.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02b340d6-b4c8-4ab5-9972-2d6cc496c929")
 	)
-	(fp_line (start -4.47 1.38) (end -4.47 -0.48) (layer F.SilkS) (width 0.25))
-	(fp_line (start 4.47 5.10) (end -4.47 5.10) (layer F.SilkS) (width 0.25))
-	(fp_line (start -4.47 5.10) (end -4.47 3.62) (layer F.SilkS) (width 0.25))
-	(fp_line (start 4.47 1.38) (end 4.47 -0.48) (layer F.SilkS) (width 0.25))
-	(fp_line (start 4.47 5.10) (end 4.47 3.62) (layer F.SilkS) (width 0.25))
-	(pad B8 smd rect (at -1.75 -2.47 0.00) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
-	(pad A5 smd rect (at -1.25 -2.47 0.00) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
-	(pad B7 smd rect (at -0.75 -2.47 0.00) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
-	(pad A6 smd rect (at -0.25 -2.47 0.00) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
-	(pad A7 smd rect (at 0.25 -2.47 0.00) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
-	(pad B6 smd rect (at 0.75 -2.47 0.00) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
-	(pad A8 smd rect (at 1.25 -2.47 0.00) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
-	(pad B5 smd rect (at 1.75 -2.47 0.00) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
-	(pad A1B12 smd custom (at -3.20 -2.47 0.00) (size 0.01 0.01) (layers F.Cu F.Paste F.Mask)
-		(primitives 
-			(gr_poly 
-				(pts (xy 0.3 0.65)(xy 0.3 -0.65)(xy 0.3 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy -0.3 -0.65)(xy -0.3 -0.65)(xy -0.3 0.65)(xy -0.3 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.3 0.65)
-				) 
-				(width 0.1) 
+	(fp_line
+		(start 4.47 5.1)
+		(end -4.47 5.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d93f8fba-5ffa-40ec-9757-69d7378a7e01")
+	)
+	(fp_line
+		(start 4.47 5.1)
+		(end 4.47 3.62)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1dadcc4-b142-4dab-bb02-08d19ba96ac3")
+	)
+	(fp_circle
+		(center -2.9 -1.21)
+		(end -2.78 -1.21)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "86b3fc8e-6de3-4247-a684-9bcb1bedf237")
+	)
+	(fp_circle
+		(center 2.9 -1.21)
+		(end 3.02 -1.21)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "d6c65b58-5220-4aed-a76e-c6285a08c648")
+	)
+	(fp_circle
+		(center 4.48 -2.76)
+		(end 4.51 -2.76)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "76c07250-7c7e-4430-9443-2a5e810dc133")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3ca27a9c-a8c7-4742-9549-c20066fc914e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
-	(pad B1A12 smd custom (at 3.20 -2.47 0.00) (size 0.01 0.01) (layers F.Cu F.Paste F.Mask)
-		(primitives 
-			(gr_poly 
-				(pts (xy -0.3 -0.65)(xy -0.3 0.65)(xy -0.3 0.65)(xy -0.01 0.65)(xy -0.01 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.3 0.65)(xy 0.3 0.65)(xy 0.3 -0.65)(xy 0.3 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy -0.01 -0.65)(xy -0.01 -0.65)(xy -0.3 -0.65)
-				) 
-				(width 0.1) 
+	(pad "" thru_hole circle
+		(at -2.9 -1.21)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a65efec2-0198-4873-af25-3b0bdf4d651c")
+	)
+	(pad "" thru_hole circle
+		(at 2.9 -1.21)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "212b2566-53a9-4a05-94bc-24b7e3b1756e")
+	)
+	(pad "1" thru_hole oval
+		(at 4.33 -1.71)
+		(size 1.2 2)
+		(drill oval 0.799998 1.599971)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e53d5c8b-b4bb-47ca-b1b9-1a252ed4d83a")
+	)
+	(pad "2" thru_hole oval
+		(at 4.33 2.47)
+		(size 1.2 1.8)
+		(drill oval 0.799998 1.399997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c066fdc-5206-4fa8-b4ea-9c2cddf7d273")
+	)
+	(pad "3" thru_hole oval
+		(at -4.33 2.47)
+		(size 1.2 1.8)
+		(drill oval 0.799998 1.399997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50f954b6-b67e-4241-ac5c-92327c8591d2")
+	)
+	(pad "4" thru_hole oval
+		(at -4.33 -1.71)
+		(size 1.2 2)
+		(drill oval 0.799998 1.600022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "345018ff-0e3d-4560-b5f3-9ca9a32bf341")
+	)
+	(pad "A1B12" smd custom
+		(at -3.2 -2.47)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.3 0.65) (xy 0.3 -0.65) (xy 0 -0.65) (xy -0.3 -0.65) (xy -0.3 0.65) (xy 0 0.65) (xy 0.3 0.65)
+				)
+				(width 0.1)
+				(fill yes)
 			)
 		)
+		(uuid "89f9bd73-0f01-4408-a072-34d1e4cdc202")
 	)
-	(pad B4A9 smd custom (at 2.40 -2.47 0.00) (size 0.01 0.01) (layers F.Cu F.Paste F.Mask)
-		(primitives 
-			(gr_poly 
-				(pts (xy 0.3 0.65)(xy 0.3 -0.65)(xy 0.3 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy -0.3 -0.65)(xy -0.3 -0.65)(xy -0.3 0.65)(xy -0.3 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.3 0.65)
-				) 
-				(width 0.1) 
+	(pad "A4B9" smd custom
+		(at -2.4 -2.47)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.3 0.65) (xy 0.3 -0.65) (xy 0 -0.65) (xy -0.3 -0.65) (xy -0.3 0.65) (xy 0 0.65) (xy 0.3 0.65)
+				)
+				(width 0.1)
+				(fill yes)
 			)
 		)
+		(uuid "a7ab304a-eab7-42c4-a378-3a2725121811")
 	)
-	(pad A4B9 smd custom (at -2.40 -2.47 0.00) (size 0.01 0.01) (layers F.Cu F.Paste F.Mask)
-		(primitives 
-			(gr_poly 
-				(pts (xy 0.3 0.65)(xy 0.3 -0.65)(xy 0.3 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy 0.0 -0.65)(xy -0.3 -0.65)(xy -0.3 -0.65)(xy -0.3 0.65)(xy -0.3 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.0 0.65)(xy 0.3 0.65)
-				) 
-				(width 0.1) 
+	(pad "A5" smd rect
+		(at -1.25 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f4fb38e-1f77-4407-9782-08facacf5b58")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f3c1ce1-adcd-4338-8bc5-bb816f087842")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fbce6cb8-16cb-4b42-abdf-104b6fd0d9ee")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4db332f-cbf3-41dd-8b02-52f3e696b877")
+	)
+	(pad "B1A12" smd custom
+		(at 3.2 -2.47)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -0.65) (xy -0.3 0.65) (xy -0.01 0.65) (xy 0 0.65) (xy 0.3 0.65) (xy 0.3 -0.65) (xy 0 -0.65)
+					(xy -0.01 -0.65) (xy -0.3 -0.65)
+				)
+				(width 0.1)
+				(fill yes)
 			)
 		)
+		(uuid "e07ceb0f-723d-498c-82ae-d91c1a9d47e2")
 	)
-	(pad 2 thru_hole oval (at 4.33 2.47 0.00) (size 1.20 1.80) (layers *.Cu *.Mask)(drill oval 0.7999983999999999 1.3999972))
-	(pad 1 thru_hole oval (at 4.33 -1.71 0.00) (size 1.20 2.00) (layers *.Cu *.Mask)(drill oval 0.7999983999999999 1.5999713999999998))
-	(pad 4 thru_hole oval (at -4.33 -1.71 0.00) (size 1.20 2.00) (layers *.Cu *.Mask)(drill oval 0.7999983999999999 1.6000221999999997))
-	(pad 3 thru_hole oval (at -4.33 2.47 0.00) (size 1.20 1.80) (layers *.Cu *.Mask)(drill oval 0.7999983999999999 1.3999972))
-	(pad "" thru_hole circle (at -2.90 -1.21) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask))
-	(pad "" thru_hole circle (at 2.90 -1.21) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask))
-	(fp_circle (center 4.48 -2.76) (end 4.51 -2.76) (layer F.Fab) (width 0.06))
-	(fp_circle (center 2.90 -1.21) (end 3.02 -1.21) (layer Cmts.User) (width 0.25))
-	(fp_circle (center -2.90 -1.21) (end -2.78 -1.21) (layer Cmts.User) (width 0.25))
-	(model "/MeshDeck/MeshDeck.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
-		(offset (xyz 0.000 -1.100 0.850))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 180))
+	(pad "B4A9" smd custom
+		(at 2.4 -2.47)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.3 0.65) (xy 0.3 -0.65) (xy 0 -0.65) (xy -0.3 -0.65) (xy -0.3 0.65) (xy 0 0.65) (xy 0.3 0.65)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "4faf8ee2-4162-4bcd-9c77-55896422091c")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d3f68e9-7040-4a92-97b4-ec3d05693dae")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb67f469-12a8-488a-8877-f8edd02f1f4d")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c54bb272-ec4a-4795-8440-434e4d73c888")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c0f1b18-9fad-4762-8984-b2d962ccacbe")
+	)
+	(embedded_fonts no)
+	(model "MeshDeck.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
+		(offset
+			(xyz 0 -2.6 -0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
 	)
 )
