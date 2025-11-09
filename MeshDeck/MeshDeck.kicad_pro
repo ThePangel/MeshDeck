@@ -616,6 +616,14 @@
     [
       "57a665bf-6d32-4f6f-a635-a071efc93fed",
       "Root"
+    ],
+    [
+      "b777f031-ef15-4cbd-b6d4-fc929f476bf8",
+      "Power Sheet"
+    ],
+    [
+      "5c4e5ef5-0ffe-4f23-af51-9d23eacc314a",
+      "USBSheet"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,245 @@
+(footprint "OSC-TH_BD2.0-P0.50"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "ee8c3966-8757-40fe-9773-a4894bffb171")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OSC-TH_BD2.0-P0.50"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "904f22a6-005d-4d3a-b8c6-d78ffd7314ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "057ffb43-eaed-4b02-bb9d-ad43dc321639")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6997d271-c393-4d72-a281-723f156d02a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.77 -1)
+		(end -0.77 -0.98)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b70c62ac-5079-431d-82f4-a5c60fe62c90")
+	)
+	(fp_line
+		(start -0.51 -1.38)
+		(end -0.51 -1.89)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "deea3046-066f-40c1-899f-51a2a5435c01")
+	)
+	(fp_line
+		(start -0.51 -1.38)
+		(end -0.51 -1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83f9166d-d3b6-41ee-9fe7-7db3819a3dc2")
+	)
+	(fp_line
+		(start -0.51 -1.25)
+		(end -0.77 -1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89e9eb65-016f-4018-82dd-818946b27898")
+	)
+	(fp_line
+		(start 0.5 -1.38)
+		(end 0.5 -1.89)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8961b81-9e42-43d5-9ec8-df86ec42fe7c")
+	)
+	(fp_line
+		(start 0.5 -1.38)
+		(end 0.5 -1.26)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a85a2d0-2451-4f2a-aa20-17902e7a2be0")
+	)
+	(fp_line
+		(start 0.5 -1.26)
+		(end 0.76 -1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9c0e7e8-53bf-4b75-b0b5-3792c8ff2be7")
+	)
+	(fp_line
+		(start 0.76 -1)
+		(end 0.76 -0.98)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2713742-c50c-4d41-af70-a9afcc72a7ec")
+	)
+	(fp_line
+		(start -1 -8)
+		(end -1 -8)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4771602c-2761-4ac4-86a4-afbe766c1ddf")
+	)
+	(fp_line
+		(start -1 -8)
+		(end 1 -8)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7867a4b4-87b9-4843-a73e-07fa808b45a6")
+	)
+	(fp_line
+		(start 1 -8)
+		(end 1 -2)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68ea9d6e-7ee4-49ce-a3d1-b2c601d70161")
+	)
+	(fp_line
+		(start 1 -2)
+		(end -1 -2)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8cca664-1fe0-437c-a052-d654dd19c513")
+	)
+	(fp_circle
+		(center -1.4 0.75)
+		(end -1.37 0.75)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "782c05f2-05d9-407d-8a28-f7b730ba5c00")
+	)
+	(fp_circle
+		(center -0.8 0)
+		(end -0.6 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d7c40dad-aabc-4ebe-a6b3-16b8d1081e4a")
+	)
+	(fp_circle
+		(center 0.8 0)
+		(end 1 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e401a06e-5e19-4c97-82f0-d7f69a31968a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "984b14a5-1e5c-4220-9498-edf982114195")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -0.8 0)
+		(size 1.2 1.5)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "55b075a3-6781-4440-8e27-130542a0aefd")
+	)
+	(pad "2" thru_hole oval
+		(at 0.8 0)
+		(size 1.2 1.5)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "337743d5-4cb2-497f-bee5-82a800cd68ec")
+	)
+	(embedded_fonts no)
+	(model "/MeshDeck.3dshapes/OSC-TH_BD2.0-H6.0-P1.6.wrl"
+		(offset
+			(xyz 0 2 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

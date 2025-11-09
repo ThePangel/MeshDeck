@@ -9,6 +9,150 @@
 		(company "ThePangel")
 	)
 	(lib_symbols
+		(symbol "MeshDeck:0402CG120J500NT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402CG120J500NT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MeshDeck:C0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120-5-50V_C1547.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C1547"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402CG120J500NT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MeshDeck:0402WGF0000TCE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -213,388 +357,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:0402WGF1801TCE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0402WGF1801TCE"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:R0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-8KR-1801-1_C25871.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C25871"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF1801TCE_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:0402WGF5101TCE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0402WGF5101TCE"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:R0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C25905"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF5101TCE_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:0805G(Green)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0805G (Green)"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:LED0805-R-RD"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Green-0805-Highlighted_C2297.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C2297"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0805G(Green)_0_1"
-				(polyline
-					(pts
-						(xy -4.06 3.3) (xy -3.05 2.79) (xy -3.56 2.29) (xy -4.06 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.05 4.32) (xy -2.03 3.81) (xy -2.54 3.3) (xy -3.05 4.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 1.52) (xy -4.06 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -3.05 4.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.03) (xy -1.27 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1225,1127 +987,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MeshDeck:BQ24074RGTR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BQ24074RGTR"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:QFN-16_L3.0-W3.0-P0.50-TL-EP1.7"
-				(at 0 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Battery-Management_TI_BQ24074RGTR_BQ24074RGTR_C54313.html"
-				(at 0 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C54313"
-				(at 0 -31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BQ24074RGTR_0_1"
-				(rectangle
-					(start -10.16 21.59)
-					(end 10.16 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -15.24 19.05 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 13.97 0)
-					(length 5.08)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 1.27 0)
-					(length 5.08)
-					(name "ITERM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -3.81 0)
-					(length 5.08)
-					(name "ISET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -8.89 0)
-					(length 5.08)
-					(name "TS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -16.51 0)
-					(length 5.08)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -19.05 0)
-					(length 5.08)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 19.05 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 16.51 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 11.43 180)
-					(length 5.08)
-					(name "~{CHG}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 6.35 180)
-					(length 5.08)
-					(name "~{PGOOD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 1.27 180)
-					(length 5.08)
-					(name "EN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 -1.27 180)
-					(length 5.08)
-					(name "EN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 -6.35 180)
-					(length 5.08)
-					(name "TMR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 -11.43 180)
-					(length 5.08)
-					(name "~{CE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -16.51 180)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -19.05 180)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:Bluelight0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Blue light 0603"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:LED0603-RD"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Blue-light-0603_C2288.html"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C2288"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Bluelight0603_0_1"
-				(polyline
-					(pts
-						(xy -3.81 2.03) (xy -2.79 1.52) (xy -3.3 1.02) (xy -3.81 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.79 3.05) (xy -1.78 2.54) (xy -2.29 2.03) (xy -2.79 3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.03 0.25) (xy -3.81 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.76) (xy -1.27 -3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.02 1.27) (xy -2.79 3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.79) (xy -1.27 -1.27) (xy 1.27 0.51) (xy 1.27 -2.79)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -1.27 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:CL05A105KP5NNNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL05A105KP5NNNC"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:C0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KP5NNNC_1uF-105-10-10V_C14445.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C14445"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL05A105KP5NNNC_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:CL05A106MQ5NUNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL05A106MQ5NUNC"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:C0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A106MQ5NUNC_10uF-106-20-6-3V_C15525.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C15525"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL05A106MQ5NUNC_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:CL05A226MQ5QUNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL05A226MQ5QUNC"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:C0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C105226"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL05A226MQ5QUNC_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:CL05A475MP5NRNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL05A475MP5NRNC"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:C0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A475MP5NRNC_4-7uF-475-20-10V_C23733.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C23733"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL05A475MP5NRNC_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MeshDeck:CL05B104KO5NNNC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2449,113 +1090,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:CR0402JF01R5G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CR0402JF01R5G"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:R0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Resistors_LIZ-Elec-CR0402JF01R5G_C100605.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C100605"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CR0402JF01R5G_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin unspecified line
@@ -3417,150 +1951,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MeshDeck:LSCNB1005EETR47MB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LSCNB1005EETR47MB"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:L0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C5788770"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LSCNB1005EETR47MB_0_1"
-				(arc
-					(start -4.06 -0.01)
-					(mid -2.83 0.99)
-					(end -2.03 0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.03 -0.01)
-					(mid -0.8 0.99)
-					(end 0 0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.01)
-					(mid 1.23 0.99)
-					(end 2.03 0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.03 -0.01)
-					(mid 3.26 0.99)
-					(end 4.06 0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 1.016)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 1.016)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MeshDeck:QR0402F1KQ10"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3651,6 +2041,137 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MeshDeck:RN32768114"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RN32768114"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MeshDeck:OSC-TH_BD2.0-P0.50"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7206316"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RN32768114_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.51 1.78)
+					(end 0.51 -1.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4038,1299 +2559,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MeshDeck:TPS6282533DMQR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS6282533DMQR"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:VSON-6_L1.5-W1.5-P0.50-TL"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C3189971"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS6282533DMQR_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -6.35 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:TYPE-C-31-M-12"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "USBC"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TYPE-C-31-M-12"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:USB-C_SMD-TYPE-C-31-M-12_1"
-				(at 0 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C165948"
-				(at 0 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TYPE-C-31-M-12_0_1"
-				(rectangle
-					(start -6.35 16.51)
-					(end 6.35 -16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 13.97 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 11.43 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 8.89 0)
-					(length 2.54)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 6.35 0)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 3.81 0)
-					(length 2.54)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -3.81 0)
-					(length 2.54)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -8.89 0)
-					(length 2.54)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -11.43 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -13.97 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -6.35 180)
-					(length 2.54)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -8.89 180)
-					(length 2.54)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -11.43 180)
-					(length 2.54)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -13.97 180)
-					(length 2.54)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MeshDeck:USBLC6-2P6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "USBLC6-2P6"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MeshDeck:SOT-666-6_L1.6-W1.2-P0.50-LS1.6-BR"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2P6_USBLC6-2P6_C15999.html"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C15999"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USBLC6-2P6_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 7.62) (xy 10.16 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -7.62) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -7.62 0)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 0) (xy 7.87 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -7.62 3.81) (xy -7.62 -3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 3.81) (xy -5.08 5.08) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -2.54 -3.81) (xy -5.08 -2.54) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.81)
-					(mid 0 -3.81)
-					(end 0 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.81)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.25 7.62)
-					(mid 0.25 7.62)
-					(end 0.25 7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.25 -7.62)
-					(mid 0.25 -7.62)
-					(end 0.25 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.51 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.78 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 5.08 3.81) (xy 2.54 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 5.08 -3.81) (xy 2.54 -2.54) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.83 -3.81) (xy 7.87 -3.81) (xy 7.87 3.81) (xy 5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.81) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.81) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.87 0) (xy 10.16 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.87 0)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -15.24 7.62 0)
-					(length 5.08)
-					(name "I/O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -7.62 0)
-					(length 5.08)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "I/O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5434,230 +2662,108 @@
 		)
 	)
 	(junction
-		(at 39.37 66.04)
+		(at 213.36 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af99b30-8d76-455c-92ca-bbc123a472c6")
+	)
+	(junction
+		(at 142.24 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e3d79dd-8aad-4702-b93b-423d4a7e4922")
+	)
+	(junction
+		(at 107.95 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21a8fe29-ac81-40bb-87e0-f259398332a6")
 	)
 	(junction
-		(at 81.28 147.32)
+		(at 104.14 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "271f620c-2031-4cd1-8510-17b6ced90698")
+		(uuid "256c3d9c-3d00-42c3-a369-274275005713")
 	)
 	(junction
-		(at 26.67 182.88)
+		(at 120.65 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "28c32d92-507b-4af3-a415-b03a5b141376")
+		(uuid "2f435f6e-8ab2-48a4-b957-b887539e4dcf")
 	)
 	(junction
-		(at 33.02 22.86)
+		(at 107.95 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29185cc0-a2fd-4bec-b86e-735d78a61426")
+		(uuid "321562b8-bfb9-4fee-9b1f-e1e9dba155a5")
 	)
 	(junction
-		(at 66.04 147.32)
+		(at 142.24 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2abc32ab-9f1f-4d60-af6e-cbb23d172e72")
+		(uuid "48b76a83-2e43-430d-8655-7db53382d2fb")
 	)
 	(junction
-		(at 44.45 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e03b812-c48d-401f-9ebc-b1c6575e643c")
-	)
-	(junction
-		(at 30.48 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37268b31-80ce-4419-aab5-5a48871056e2")
-	)
-	(junction
-		(at 30.48 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b8e8897-7072-4d91-9aa9-b8cac3660a6b")
-	)
-	(junction
-		(at 35.56 66.04)
+		(at 104.14 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b0cf3c2-6296-4b51-a328-2d42111c1503")
 	)
 	(junction
-		(at 44.45 22.86)
+		(at 148.59 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4fd47a86-5997-4175-8003-08e7068bffac")
+		(uuid "69627d89-96e4-4416-b1a9-1f0ffed221f0")
 	)
 	(junction
-		(at 25.4 22.86)
+		(at 107.95 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5009d36f-5736-497a-bceb-df28fc28e9b9")
+		(uuid "776df89c-9dc5-4e03-8880-2c957f5f81d8")
 	)
 	(junction
-		(at 81.28 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7387a4e6-e7c7-43a4-be68-383bfa4be4ba")
-	)
-	(junction
-		(at 81.28 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74969d0f-07ef-4e63-819f-a214ef6f98d6")
-	)
-	(junction
-		(at 72.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7884ef9c-3256-461c-b027-7062101732b1")
-	)
-	(junction
-		(at 115.57 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c0fbc25-4b9b-4de2-ae70-d6d69bf6fc5a")
-	)
-	(junction
-		(at 13.97 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86d9a88b-f337-4920-998d-129f340605c6")
-	)
-	(junction
-		(at 60.96 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88fb7e8f-d5a6-45ee-b1cc-bcb82e475566")
-	)
-	(junction
-		(at 34.29 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ae5e257-f99d-4cc8-9665-a11f3aefd6ca")
-	)
-	(junction
-		(at 139.7 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9da79f7f-576d-462d-b408-3d35e8c3ce55")
-	)
-	(junction
-		(at 19.05 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1694089-50e9-46b0-9f5e-08bdc68ae3f7")
-	)
-	(junction
-		(at 60.96 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7dd63f4-f690-4d14-a509-e665947580b9")
-	)
-	(junction
-		(at 35.56 55.88)
+		(at 104.14 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afea977f-7878-42b9-8809-34528137f6e6")
 	)
 	(junction
-		(at 129.54 165.1)
+		(at 104.14 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b380ccf1-facd-49ae-9320-b2467dc924e4")
+		(uuid "c45eca9a-bbfb-440e-ae63-9bccd9a6edea")
 	)
 	(junction
-		(at 119.38 165.1)
+		(at 134.62 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6915b7b-bb5c-4639-b762-f782bbb35e01")
+		(uuid "d24bf947-7c03-43b0-a1fa-a8ccc0572376")
 	)
 	(junction
-		(at 134.62 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc6b7246-1df3-40aa-a74b-411b2ed10329")
-	)
-	(junction
-		(at 13.97 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da5ae29b-e705-4e5b-9604-59259d21cf7b")
-	)
-	(junction
-		(at 134.62 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de2486c3-b187-4baa-ac14-a2eafadf0009")
-	)
-	(junction
-		(at 39.37 55.88)
+		(at 107.95 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de7d0903-b0f0-4b62-b71e-a5b12b255810")
 	)
 	(junction
-		(at 29.21 121.92)
+		(at 148.59 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5b1b899-3f1e-4f33-8548-1654f396c99e")
-	)
-	(junction
-		(at 13.97 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8817573-6d1b-407f-982f-0e85d4515595")
-	)
-	(junction
-		(at 33.02 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed591088-4989-4ed7-97d7-b889e01f14ce")
-	)
-	(junction
-		(at 146.05 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f069cc0e-9d59-499c-b383-f175f712100e")
-	)
-	(no_connect
-		(at 31.75 102.87)
-		(uuid "6b1cebab-74f1-4a83-b452-0362c7fde3dd")
-	)
-	(no_connect
-		(at 30.48 163.83)
-		(uuid "6ba71987-8570-42c7-84de-ce75b629dba7")
-	)
-	(no_connect
-		(at 60.96 171.45)
-		(uuid "6c14e19c-8b14-42a5-8c4d-861f4884ef83")
-	)
-	(no_connect
-		(at 97.79 167.64)
-		(uuid "8008d226-f9b8-4337-a22e-605fa7016fe3")
-	)
-	(no_connect
-		(at 31.75 87.63)
-		(uuid "f7a558ac-da6a-4892-b439-c999e7a15ea3")
+		(uuid "e5b4ccd2-b0fd-4b56-8a55-0243974f80d4")
 	)
 	(wire
 		(pts
-			(xy 33.02 22.86) (xy 44.45 22.86)
+			(xy 120.65 69.85) (xy 118.11 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0105e4fe-ab21-4a94-9c0b-99e886355459")
+		(uuid "029879bf-f02c-434a-ad6f-5f6e10e21d5b")
 	)
 	(wire
 		(pts
-			(xy 20.32 53.34) (xy 35.56 53.34)
+			(xy 88.9 87.63) (xy 104.14 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5667,37 +2773,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 86.36) (xy 68.58 86.36)
+			(xy 151.13 85.09) (xy 151.13 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09cd8f47-12ee-4d53-a524-1f8db98bac16")
+		(uuid "089130e6-edc6-4b63-90f4-5d61fdbd52f8")
 	)
 	(wire
 		(pts
-			(xy 72.39 96.52) (xy 72.39 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f6c97d-9abd-4181-b90f-4ea2f593bfae")
-	)
-	(wire
-		(pts
-			(xy 34.29 97.79) (xy 38.1 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b3cbc06-696d-4287-b780-5c3de3355eed")
-	)
-	(wire
-		(pts
-			(xy 35.56 66.04) (xy 39.37 66.04)
+			(xy 104.14 100.33) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5707,217 +2793,97 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 90.17) (xy 33.02 90.17)
+			(xy 142.24 90.17) (xy 142.24 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ebd35ac-4739-43f4-957a-8114640f483e")
+		(uuid "12a1e0a3-4bc9-4f42-b12d-026c2ae6e70f")
 	)
 	(wire
 		(pts
-			(xy 60.96 184.15) (xy 60.96 181.61)
+			(xy 88.9 69.85) (xy 88.9 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f8c0ac2-7433-4e8f-96f0-4150cbb7a4de")
+		(uuid "20815cf6-24e9-4e95-8221-40da20cab439")
 	)
 	(wire
 		(pts
-			(xy 60.96 181.61) (xy 60.96 176.53)
+			(xy 104.14 67.31) (xy 104.14 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "109cd81c-7895-4296-9730-5a33c27b8785")
+		(uuid "2badddc5-2c52-4e1a-8a5d-10f404fdc65f")
 	)
 	(wire
 		(pts
-			(xy 60.96 146.05) (xy 60.96 147.32)
+			(xy 134.62 86.36) (xy 134.62 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "155ec6a9-27d5-4f70-8464-7af827745e21")
+		(uuid "2dcd6037-1364-4d99-a7a3-e249df203dd9")
 	)
 	(wire
 		(pts
-			(xy 31.75 105.41) (xy 38.1 105.41)
+			(xy 90.17 54.61) (xy 90.17 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "156b23d8-c545-4aa3-856b-c1f39fef6108")
+		(uuid "36b9f6ec-36db-4ed1-92b2-42d2fefdc80e")
 	)
 	(wire
 		(pts
-			(xy 38.1 90.17) (xy 38.1 86.36)
+			(xy 142.24 82.55) (xy 142.24 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15c5cb56-3154-4fb6-8146-9dc81151f4a3")
+		(uuid "485429fd-8c71-4baf-991e-62b5919af053")
 	)
 	(wire
 		(pts
-			(xy 20.32 173.99) (xy 19.05 173.99)
+			(xy 107.95 45.72) (xy 113.03 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15d6a9d9-9a67-484c-b965-7868d41842e0")
+		(uuid "4931af88-6e79-4575-827b-a37211db38ce")
 	)
 	(wire
 		(pts
-			(xy 60.96 147.32) (xy 60.96 148.59)
+			(xy 160.02 87.63) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e4f3847-b1c7-457d-810b-89096dd814ab")
+		(uuid "5204af5b-4b00-40fe-b5fd-3184126f6f90")
 	)
 	(wire
 		(pts
-			(xy 66.04 147.32) (xy 81.28 147.32)
+			(xy 88.9 67.31) (xy 104.14 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ec76f87-5c56-4953-bdf9-eb40aa637389")
+		(uuid "55937452-7f70-4bd7-9f33-4e371b380399")
 	)
 	(wire
 		(pts
-			(xy 35.56 100.33) (xy 31.75 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20198c05-f51d-4786-bb58-a631adb647e8")
-	)
-	(wire
-		(pts
-			(xy 38.1 97.79) (xy 38.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24dc31c8-6769-491c-8b1c-49180fc1eb61")
-	)
-	(wire
-		(pts
-			(xy 19.05 168.91) (xy 20.32 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2ab6ba-516f-4c90-b7f2-dcc9272197c9")
-	)
-	(wire
-		(pts
-			(xy 15.24 124.46) (xy 19.05 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37df0a6d-9195-4438-ba65-fcba9386dedb")
-	)
-	(wire
-		(pts
-			(xy 13.97 80.01) (xy 13.97 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e2dd8e-580e-4ea3-8db4-7a7e553e25b9")
-	)
-	(wire
-		(pts
-			(xy 97.79 165.1) (xy 97.79 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c25c22a-3299-4de6-ac8b-615ab95aff77")
-	)
-	(wire
-		(pts
-			(xy 134.62 165.1) (xy 139.7 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f98e2e8-0e72-476a-a227-71953894b57b")
-	)
-	(wire
-		(pts
-			(xy 97.79 156.21) (xy 115.57 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4697548e-9c47-4ba8-be40-04fa8f332e9c")
-	)
-	(wire
-		(pts
-			(xy 129.54 165.1) (xy 134.62 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4795cfb7-e035-4562-9716-ee489f0d9adb")
-	)
-	(wire
-		(pts
-			(xy 68.58 93.98) (xy 72.39 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "490a9d8e-74d9-4d22-aced-d48d12eb5727")
-	)
-	(wire
-		(pts
-			(xy 115.57 156.21) (xy 115.57 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8f7537-f338-408b-856b-eb80ce0f23b8")
-	)
-	(wire
-		(pts
-			(xy 97.79 170.18) (xy 97.79 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53b3acf8-11b8-4e4a-80cb-8248e901d68f")
-	)
-	(wire
-		(pts
-			(xy 35.56 53.34) (xy 35.56 55.88)
+			(xy 104.14 87.63) (xy 104.14 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5927,87 +2893,37 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 36.83) (xy 44.45 33.02)
+			(xy 91.44 54.61) (xy 90.17 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59cb164a-49e3-4a8c-bd54-e7c64f5325c5")
+		(uuid "630cd70a-4051-4dbc-9108-9117e0dccb5b")
 	)
 	(wire
 		(pts
-			(xy 34.29 97.79) (xy 31.75 97.79)
+			(xy 116.84 53.34) (xy 107.95 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "605a9780-606b-4280-b93f-296bb564c19b")
+		(uuid "68aaa556-dfae-43f3-ac42-eb4a6820d268")
 	)
 	(wire
 		(pts
-			(xy 30.48 182.88) (xy 30.48 181.61)
+			(xy 142.24 91.44) (xy 148.59 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65abb82c-bc2d-4e65-b0e4-3cb6432bc7d3")
+		(uuid "6ae34869-5124-473d-8bad-9b8d30087aa8")
 	)
 	(wire
 		(pts
-			(xy 13.97 82.55) (xy 13.97 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "675e0ca9-488c-4db2-b26a-5b8fa98e8fc8")
-	)
-	(wire
-		(pts
-			(xy 19.05 182.88) (xy 26.67 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68982455-80e9-46e4-8829-8a2dda499ade")
-	)
-	(wire
-		(pts
-			(xy 33.02 90.17) (xy 38.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d60bd1-f80a-4626-bb18-c322d760fcb7")
-	)
-	(wire
-		(pts
-			(xy 35.56 85.09) (xy 31.75 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b65ffa5-7165-4cd1-b605-2dbb41152041")
-	)
-	(wire
-		(pts
-			(xy 81.28 158.75) (xy 81.28 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d609beb-8e14-4b0e-aa5e-2f3df6bb32a5")
-	)
-	(wire
-		(pts
-			(xy 35.56 68.58) (xy 35.56 66.04)
+			(xy 104.14 102.87) (xy 104.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6017,83 +2933,73 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 165.1) (xy 146.05 165.1)
+			(xy 217.17 100.33) (xy 213.36 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74163c62-d495-4334-b6ec-d9a4d0f39fa9")
+		(uuid "74411d9b-b11d-4ab9-ab0c-9e0ff227cc39")
 	)
 	(wire
 		(pts
-			(xy 97.79 179.07) (xy 146.05 179.07)
+			(xy 151.13 91.44) (xy 148.59 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "768e3a69-f67d-4001-b9b4-14020acae3aa")
+		(uuid "7a3643c7-20fe-4e49-a656-0082b056d575")
 	)
 	(wire
 		(pts
-			(xy 74.93 101.6) (xy 68.58 101.6)
+			(xy 116.84 55.88) (xy 107.95 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ca63295-6dde-4819-a17e-e3e1d834c2be")
+		(uuid "7f173361-0cb7-4f5e-8025-ec404d9d0dce")
 	)
 	(wire
 		(pts
-			(xy 26.67 182.88) (xy 30.48 182.88)
+			(xy 104.14 82.55) (xy 104.14 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88c46878-0e55-469c-b22a-aaf9be58a5b2")
+		(uuid "876d6006-4ac8-4d33-be62-cdd079f62ce8")
 	)
 	(wire
 		(pts
-			(xy 19.05 173.99) (xy 19.05 171.45)
+			(xy 107.95 43.18) (xy 113.03 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92fec0b3-f57d-489a-bd87-739385e23e62")
+		(uuid "8eacb1fe-59dc-44e1-abf1-de9cfbc94d6f")
 	)
 	(wire
 		(pts
-			(xy 38.1 82.55) (xy 31.75 82.55)
+			(xy 104.14 69.85) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "944b0b64-3e38-40cf-b712-aa593cc843d9")
+		(uuid "91c42353-702d-4fdd-97b8-f60b6c5e30b6")
 	)
 	(wire
 		(pts
-			(xy 33.02 95.25) (xy 31.75 95.25)
+			(xy 163.83 69.85) (xy 170.18 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9935a2c8-f3e7-47cc-97be-c14d01896882")
-	)
-	(wire
-		(pts
-			(xy 29.21 121.92) (xy 31.75 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b1776e2-e70c-46e8-9290-ee04bd9a413e")
+		(uuid "9baa0be0-e3af-4154-9431-82740267b782")
 	)
 	(wire
 		(pts
@@ -6107,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 66.04) (xy 20.32 68.58)
+			(xy 88.9 100.33) (xy 88.9 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6117,23 +3023,33 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 121.92) (xy 29.21 124.46)
+			(xy 142.24 81.28) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a541f8d3-6fcc-45c2-a87c-ea1954196039")
+		(uuid "a17a8d7b-71e2-4210-af8e-ea5cb668da45")
 	)
 	(wire
 		(pts
-			(xy 20.32 55.88) (xy 20.32 53.34)
+			(xy 88.9 90.17) (xy 88.9 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a93fd63a-600f-431f-a72c-506194302aba")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf1bdf6-c16b-4eee-b820-b218187f7c07")
 	)
 	(wire
 		(pts
@@ -6147,46 +3063,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 146.05) (xy 30.48 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b11c4c73-1df2-4c58-b4de-6a568aa9a01a")
-	)
-	(wire
-		(pts
-			(xy 19.05 171.45) (xy 19.05 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1337496-930b-4392-a4da-58cc334f689f")
-	)
-	(wire
-		(pts
-			(xy 34.29 92.71) (xy 34.29 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d6598c-754f-4a5c-9354-d6503709bfac")
-	)
-	(wire
-		(pts
-			(xy 13.97 85.09) (xy 13.97 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b30d9463-e67b-4ad8-8996-4c460429376c")
-	)
-	(wire
-		(pts
 			(xy 163.83 72.39) (xy 170.18 72.39)
 		)
 		(stroke
@@ -6197,27 +3073,37 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 172.72) (xy 134.62 172.72)
+			(xy 88.9 80.01) (xy 88.9 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7114052-d5ab-483e-af0f-2b692a3a4a74")
+		(uuid "b63cce73-eb8f-4406-996d-49ac63f3c857")
 	)
 	(wire
 		(pts
-			(xy 60.96 147.32) (xy 66.04 147.32)
+			(xy 134.62 81.28) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd99a0d9-0cb4-4108-b5f3-9fdd93a5cf28")
+		(uuid "ba7edc6c-46c6-42e3-a8de-a6d36a8f071c")
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 49.53 55.88)
+			(xy 213.36 64.77) (xy 213.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f476a1-06ee-4843-99b6-7419fdf2e13a")
+	)
+	(wire
+		(pts
+			(xy 121.92 90.17) (xy 118.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6227,117 +3113,57 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 163.83) (xy 81.28 158.75)
+			(xy 125.73 69.85) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c91e4874-105f-461d-af5e-eaa656acc31d")
+		(uuid "c366702e-bbb9-482f-831f-174f76fd405e")
 	)
 	(wire
 		(pts
-			(xy 44.45 22.86) (xy 50.8 22.86)
+			(xy 88.9 82.55) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd111752-7478-4ff1-823b-ae686a6e443f")
+		(uuid "c381b3d2-27a4-4a05-b9ef-b8ba4267bc75")
 	)
 	(wire
 		(pts
-			(xy 146.05 165.1) (xy 139.7 165.1)
+			(xy 213.36 63.5) (xy 213.36 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce550755-f659-44ce-b5b4-b461313eeeff")
+		(uuid "d5390385-3683-48de-89b0-a4ff4aaa9b15")
 	)
 	(wire
 		(pts
-			(xy 30.48 182.88) (xy 30.48 184.15)
+			(xy 151.13 81.28) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf22f7ae-e455-4ca5-8172-37d28e388f1d")
+		(uuid "d9c04301-30ca-4194-9bfd-b134d916eed4")
 	)
 	(wire
 		(pts
-			(xy 72.39 93.98) (xy 80.01 93.98)
+			(xy 104.14 80.01) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf6132dc-e342-418e-8bf5-3c77d29e56c7")
+		(uuid "dd087444-8814-4202-af91-9a8ad2438cfe")
 	)
 	(wire
 		(pts
-			(xy 31.75 92.71) (xy 34.29 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d295f5e9-1113-446d-84d2-d739282d8f55")
-	)
-	(wire
-		(pts
-			(xy 29.21 119.38) (xy 29.21 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd55f3e1-9810-4ed2-8783-3a844da80e86")
-	)
-	(wire
-		(pts
-			(xy 81.28 153.67) (xy 81.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2e422a8-4787-4de9-8400-e372774be581")
-	)
-	(wire
-		(pts
-			(xy 81.28 147.32) (xy 91.44 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2e88f83-24dc-4a30-9a55-290c3039da17")
-	)
-	(wire
-		(pts
-			(xy 134.62 172.72) (xy 139.7 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39b16b4-e0d8-4f2d-b566-0c79f9e3883a")
-	)
-	(wire
-		(pts
-			(xy 33.02 90.17) (xy 33.02 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42638f8-bc76-415f-8bce-f319d4ff29db")
-	)
-	(wire
-		(pts
-			(xy 35.56 55.88) (xy 39.37 55.88)
+			(xy 104.14 90.17) (xy 107.95 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6347,47 +3173,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 179.07) (xy 146.05 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b736aa-5e67-41e1-9569-26bd431bc64d")
-	)
-	(wire
-		(pts
-			(xy 60.96 163.83) (xy 81.28 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c4a5ed-f596-42ff-9bd7-57e9ebb5b183")
-	)
-	(wire
-		(pts
-			(xy 115.57 165.1) (xy 119.38 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea87ee14-ea64-4a08-9aeb-9826c17b2e18")
-	)
-	(wire
-		(pts
-			(xy 15.24 119.38) (xy 19.05 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb382359-a15e-4ffb-9000-1a2e16c684c9")
-	)
-	(wire
-		(pts
-			(xy 20.32 68.58) (xy 35.56 68.58)
+			(xy 88.9 102.87) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6397,103 +3183,43 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 165.1) (xy 129.54 165.1)
+			(xy 151.13 87.63) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecb31907-1a59-4779-a760-09cae2868cc8")
+		(uuid "f63c7080-33c6-4a3b-968c-fdec7e0eaf53")
 	)
 	(wire
 		(pts
-			(xy 25.4 22.86) (xy 33.02 22.86)
+			(xy 90.17 44.45) (xy 91.44 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed205d23-7b3e-42aa-b8b5-6f444ed9fe5c")
+		(uuid "f714fcb6-66c2-4ce6-ae64-6db0dc6c9251")
 	)
-	(wire
-		(pts
-			(xy 44.45 36.83) (xy 53.34 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc29f051-927b-4577-a9f1-3226d0aa016b")
-	)
-	(label "BCC_OUT"
-		(at 129.54 165.1 180)
+	(label "EN"
+		(at 113.03 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0f1bd778-ced9-46b9-9712-a65be310235f")
+		(uuid "3969db8b-d71b-4602-8fd0-a96dce047bbf")
 	)
-	(label "VBUS"
-		(at 38.1 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "11782210-4a78-49ea-9325-527050c077fb")
-	)
-	(label "CC1"
-		(at 35.56 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "23ef7b09-1119-4d71-96ec-8725f10de4c0")
-	)
-	(label "BAT"
-		(at 19.05 182.88 0)
+	(label "3V3"
+		(at 120.65 59.69 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2fd0e43b-195c-44a6-b85d-444b0b0ca5f2")
-	)
-	(label "BCC_OUT"
-		(at 91.44 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50f9d478-27ff-4424-8625-f7e12aa6c778")
-	)
-	(label "VBUS"
-		(at 38.1 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "626a4fa2-e49a-4dc0-b966-40da86bcf282")
-	)
-	(label "3V3"
-		(at 50.8 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70e4ce92-c66f-482f-8ea8-5fd79beac491")
+		(uuid "5e6169dc-a1c4-4408-b0ce-a4b31ccdc195")
 	)
 	(label "USB_D-"
 		(at 152.4 97.79 0)
@@ -6516,7 +3242,7 @@
 		(uuid "744b8378-52cd-42b2-9912-2ed8005de699")
 	)
 	(label "EN"
-		(at 53.34 55.88 180)
+		(at 121.92 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6525,45 +3251,45 @@
 		)
 		(uuid "8f8bf08a-c4a4-4b3e-8eb6-a69b5274df1d")
 	)
-	(label "USB_D+"
-		(at 74.93 86.36 180)
+	(label "IO0"
+		(at 217.17 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "abc5b21f-78b0-4dbd-af11-493ae391c0ec")
+		(uuid "a36a8b99-8cfa-44c5-8ec9-bd2b54cc57ea")
 	)
-	(label "VBUS"
-		(at 80.01 93.98 180)
+	(label "USB_D-"
+		(at 116.84 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c17af2b4-f7be-42bf-8eb6-760c6c9aafb7")
+		(uuid "adae77fc-6f1d-4f87-a0ec-4b36d685d1b5")
 	)
-	(label "CC2"
-		(at 35.56 85.09 180)
+	(label "IO0"
+		(at 125.73 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c4927245-1ec1-46e7-9b8e-7655f6706283")
+		(uuid "b0a36532-7fd7-4bdc-a536-a3360539f78e")
 	)
-	(label "VBUS"
-		(at 22.86 146.05 0)
+	(label "3V3"
+		(at 163.83 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c78c9a84-37ec-4801-a422-6a8338442b9c")
+		(uuid "b67cfcad-43d7-4df5-b839-b37fa836b108")
 	)
 	(label "EN"
 		(at 163.83 72.39 0)
@@ -6575,73 +3301,54 @@
 		)
 		(uuid "cef8b968-dd6a-4d30-83c2-d56915708e68")
 	)
-	(label "CC1"
-		(at 15.24 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dacecea9-dbc2-4dbd-83c6-83adba22cc42")
-	)
-	(label "CC2"
-		(at 15.24 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0f1c1bb-4005-4387-b6a0-bd4e6bb6b5a1")
-	)
-	(label "EN"
-		(at 53.34 36.83 180)
+	(label "3V3"
+		(at 113.03 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e3c20e10-472e-45e4-b4d8-baa42ca9406f")
+		(uuid "de45d99c-4879-458a-bbbd-69b15841d02b")
 	)
-	(label "USB_D-"
-		(at 74.93 101.6 180)
+	(label "USB_D+"
+		(at 116.84 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e852d4dc-d8ca-4a7b-97d6-5d0b855cd170")
+		(uuid "eeb9a2a9-35eb-4e1e-bc1c-6fd8756a17fa")
 	)
 	(symbol
-		(lib_id "MeshDeck:CR0402JF01R5G")
-		(at 76.2 158.75 0)
+		(lib_id "MeshDeck:0402CG120J500NT")
+		(at 138.43 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0152665a-48fd-460f-8936-625ca3e78555")
-		(property "Reference" "R7"
-			(at 75.946 161.036 0)
+		(fields_autoplaced yes)
+		(uuid "103fd284-daeb-4c9d-9ac2-5db2b22fc396")
+		(property "Reference" "C15"
+			(at 138.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1,5K"
-			(at 76.454 162.814 0)
+		(property "Value" "12pF"
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MeshDeck:R0402"
-			(at 76.2 166.37 0)
+		(property "Footprint" "MeshDeck:C0402"
+			(at 138.43 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,8 +3356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Resistors_LIZ-Elec-CR0402JF01R5G_C100605.html"
-			(at 76.2 168.91 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120-5-50V_C1547.html"
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +3366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 158.75 0)
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,228 +3374,59 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C100605"
-			(at 76.2 171.45 0)
+		(property "LCSC Part" "C1547"
+			(at 138.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "ec808e01-919c-41a7-a7c6-a021430c9e54")
 		)
 		(pin "2"
-			(uuid "7b890af7-486c-41b7-8e9d-70ad6f3cc4b8")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:TYPE-C-31-M-12")
-		(at 22.86 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "061ae2cc-a24e-46e2-aa8e-9400aa9c30ab")
-		(property "Reference" "USBC1"
-			(at 22.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TYPE-C-31-M-12"
-			(at 22.86 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:USB-C_SMD-TYPE-C-31-M-12_1"
-			(at 22.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
-			(at 22.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C165948"
-			(at 22.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "825247b8-6649-47ec-9946-a592ff2501db")
-		)
-		(pin "2"
-			(uuid "0b39cbb4-8148-425d-9da6-33376daee351")
+			(uuid "ec2e3442-af2d-4f46-aacc-11016ccf85fa")
 		)
 		(pin "1"
-			(uuid "fb530cf2-37a2-4051-b699-11bc44d4bf64")
-		)
-		(pin "B8"
-			(uuid "371a856a-4969-4dd9-aaeb-a0932d0ee1cf")
-		)
-		(pin "A5"
-			(uuid "e4b7e7a1-1070-4c57-a7ed-cbe2a4f5a614")
-		)
-		(pin "B7"
-			(uuid "f05a796c-9f73-4281-bab5-c0ef88560e7a")
-		)
-		(pin "A6"
-			(uuid "8861b242-220c-4282-a973-a2c850198b26")
-		)
-		(pin "A7"
-			(uuid "ccdb1012-1fce-4593-b586-ee6ffaac2e95")
-		)
-		(pin "B6"
-			(uuid "b1b0c94f-befb-4657-94de-725fa290c25d")
-		)
-		(pin "A8"
-			(uuid "4026578d-b290-4ab7-bf5a-a57fc08a4c67")
-		)
-		(pin "A4B9"
-			(uuid "a9bbaad0-c1d1-466a-8893-e3e365968536")
-		)
-		(pin "A1B12"
-			(uuid "7354049d-2665-40b1-82ad-17d2c126cd79")
-		)
-		(pin "B5"
-			(uuid "ca63ec74-1a39-4cac-98e9-0291928640e9")
-		)
-		(pin "B4A9"
-			(uuid "398e9354-3126-47db-b22f-c97572211e1a")
-		)
-		(pin "B1A12"
-			(uuid "3fd13457-7b33-43c3-ba07-e0b5db2ff9c4")
-		)
-		(pin "4"
-			(uuid "5e7446ba-8eff-47ce-9899-6168280f058a")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "USBC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "092a1ccf-8fa8-4a96-896e-a969bcabf580")
-		(property "Reference" "#PWR017"
-			(at 67.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 181.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47b8e9d9-db49-45af-a03a-4f505eebe2bd")
+			(uuid "27e7030b-f667-460b-a3a3-b0a87239ba12")
 		)
 		(instances
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR017")
+					(reference "C15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 166.37 90)
+		(lib_id "MeshDeck:CL05B104KO5NNNC")
+		(at 107.95 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d82deec-1b36-4d61-9f5a-46fd4d87c684")
-		(property "Reference" "#PWR016"
-			(at 67.31 166.37 0)
+		(uuid "143e61a4-9435-4456-9174-c1961dfcc244")
+		(property "Reference" "C13"
+			(at 111.76 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 111.76 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MeshDeck:C0402"
+			(at 100.33 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,17 +3434,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 64.77 166.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 166.37 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
+			(at 97.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,8 +3443,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 60.96 166.37 0)
+		(property "Description" ""
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,55 +3452,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 166.37 0)
+		(property "LCSC Part" "C1525"
+			(at 95.25 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "76e6b802-9150-4844-a493-c8d82c565e49")
 		)
 		(pin "1"
-			(uuid "577a18b0-cc87-4cdf-bcfe-5ba2581ee64b")
+			(uuid "1390edb1-eaa4-4f18-99d8-915bf267a0fa")
 		)
 		(instances
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR016")
+					(reference "C13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:BQ24074RGTR")
-		(at 45.72 165.1 0)
+		(lib_id "MeshDeck:0402CG120J500NT")
+		(at 138.43 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ff51ea0-fc42-4bc1-8f51-31d816dae37f")
-		(property "Reference" "U4"
-			(at 45.72 138.43 0)
+		(uuid "148cbc89-3a9b-4c8a-b81e-9237af1b97ad")
+		(property "Reference" "C14"
+			(at 138.43 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BQ24074RGTR"
-			(at 45.72 140.97 0)
+		(property "Value" "12pF"
+			(at 138.43 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MeshDeck:QFN-16_L3.0-W3.0-P0.50-TL-EP1.7"
-			(at 45.72 191.77 0)
+		(property "Footprint" "MeshDeck:C0402"
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,8 +3511,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Battery-Management_TI_BQ24074RGTR_BQ24074RGTR_C54313.html"
-			(at 45.72 194.31 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120-5-50V_C1547.html"
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +3521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 165.1 0)
+			(at 138.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,130 +3529,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C54313"
-			(at 45.72 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "1aa765db-3cb2-4495-aab2-0a7635c35039")
-		)
-		(pin "13"
-			(uuid "f651dfbd-4bbe-4499-88bd-f47191efbf4f")
-		)
-		(pin "5"
-			(uuid "63b7433a-4ae2-44c6-817d-12475ff68983")
-		)
-		(pin "11"
-			(uuid "0f398b81-6c8c-4b36-b1fd-e1301456057f")
-		)
-		(pin "8"
-			(uuid "a22953eb-3f82-482c-804b-bbd8a57086d0")
-		)
-		(pin "3"
-			(uuid "26235c1e-f558-430f-89c0-77be5455a1e5")
-		)
-		(pin "16"
-			(uuid "73846ab9-8c53-4ef2-9f5a-02e02b55799d")
-		)
-		(pin "2"
-			(uuid "b4004720-da39-4610-bcef-7479b36aed85")
-		)
-		(pin "7"
-			(uuid "7880e225-0174-4c2e-b6dc-4a307608d062")
-		)
-		(pin "17"
-			(uuid "fc09c83f-7209-4750-9beb-05059bc155c8")
-		)
-		(pin "15"
-			(uuid "b870b00b-e5f5-425f-a85e-0eeac917b6bb")
-		)
-		(pin "1"
-			(uuid "cac9b09c-754e-4e58-9e32-4bea356cc1e1")
-		)
-		(pin "9"
-			(uuid "112e2847-676c-4779-ade9-b1f160f619d2")
-		)
-		(pin "4"
-			(uuid "0052377f-3fa1-49a8-a7e1-e30fec3994f4")
-		)
-		(pin "6"
-			(uuid "14928daf-0e4c-4bda-aa99-47c3b0ab65aa")
-		)
-		(pin "10"
-			(uuid "5d59338e-e67c-4b7d-9ffd-6e9226ccdc5e")
-		)
-		(pin "14"
-			(uuid "234bae8b-677a-44a6-bdf5-0c3bc6407aa3")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:TPS6282533DMQR")
-		(at 107.95 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "172ac4ce-6f1e-424a-837b-b5b9ec6f237b")
-		(property "Reference" "U3"
-			(at 106.68 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS6282533DMQR"
-			(at 106.68 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:VSON-6_L1.5-W1.5-P0.50-TL"
-			(at 107.95 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3189971"
-			(at 107.95 180.34 0)
+		(property "LCSC Part" "C1547"
+			(at 138.43 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,27 +3539,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0835ba95-82ab-46d9-afb7-a9421d613e4d")
-		)
-		(pin "3"
-			(uuid "24e7866c-544f-4511-914d-5eef505f0ced")
-		)
-		(pin "6"
-			(uuid "eb47617d-5431-4fef-b1db-9ce3e9d31dbe")
-		)
-		(pin "5"
-			(uuid "23fce63b-c8e8-4fe9-9cc6-14dc41bad1b3")
-		)
-		(pin "4"
-			(uuid "654b297d-df87-40be-98c1-3758034a8c8f")
+			(uuid "623d4a1a-74f7-4e2b-b257-d626240d3b7d")
 		)
 		(pin "1"
-			(uuid "57c11ab9-edbd-4ac0-a6c7-bd41fa55eb9c")
+			(uuid "447e3375-15cc-4c24-b747-3f9ec6d460ee")
 		)
 		(instances
 			(project ""
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "U3")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7232,32 +3630,34 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:CL05A475MP5NRNC")
-		(at 66.04 142.24 90)
+		(lib_id "MeshDeck:RN32768114")
+		(at 142.24 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "23967117-2b86-460a-9d3b-c1874785dbac")
-		(property "Reference" "C6"
-			(at 59.69 142.24 0)
+		(uuid "1dec9767-23fa-4e4c-a219-0f64a6e3aa00")
+		(property "Reference" "U5"
+			(at 144.78 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7 uF"
-			(at 60.706 138.938 90)
+		(property "Value" "RN32768114"
+			(at 136.652 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 73.66 142.24 0)
+		(property "Footprint" "MeshDeck:OSC-TH_BD2.0-P0.50"
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,8 +3665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A475MP5NRNC_4-7uF-475-20-10V_C23733.html"
-			(at 76.2 142.24 0)
+		(property "Datasheet" ""
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +3675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 142.24 0)
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,8 +3683,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23733"
-			(at 78.74 142.24 0)
+		(property "LCSC Part" "C7206316"
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,15 +3693,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d812759-5eed-4609-a681-d7f56d1a1bca")
+			(uuid "811e1f52-6e33-401a-bff4-7fd3e22d466f")
 		)
 		(pin "2"
-			(uuid "c7018819-681b-4c44-b564-dd5b7fc0aa66")
+			(uuid "0d47224a-232d-4210-ad1e-1b96b1c46f31")
 		)
 		(instances
 			(project ""
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7384,162 +3784,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:0402WGF1002TCE")
-		(at 25.4 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "243c1db6-0f7d-4fa0-a1f3-8fc8d92e6a1a")
-		(property "Reference" "R11"
-			(at 25.4 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 25.146 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:R0402"
-			(at 25.4 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html"
-			(at 25.4 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 25.4 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a5ddfd7-657a-4a8f-b108-fa34d6551bc0")
-		)
-		(pin "2"
-			(uuid "91b095b0-cadc-428c-be3e-313d9500dfa3")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CL05A106MQ5NUNC")
-		(at 129.54 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2603d758-297f-475e-a522-057cea4e8079")
-		(property "Reference" "C10"
-			(at 125.73 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 124.206 170.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 137.16 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A106MQ5NUNC_10uF-106-20-6-3V_C15525.html"
-			(at 139.7 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C15525"
-			(at 142.24 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "19492b67-9527-40c7-91fd-5eac43eede35")
-		)
-		(pin "1"
-			(uuid "c359477b-32db-4ec5-b3d0-bc38aa28149c")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 213.36 67.31 90)
+		(at 213.36 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7548,7 +3794,7 @@
 		(fields_autoplaced yes)
 		(uuid "26d45190-c7e8-4504-976b-2eb241f65f4d")
 		(property "Reference" "#PWR08"
-			(at 219.71 67.31 0)
+			(at 219.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +3803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 67.3099 90)
+			(at 217.17 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 67.31 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +3821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 67.31 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +3830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 67.31 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,84 +3845,6 @@
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CL05A105KP5NNNC")
-		(at 30.48 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27aa444a-dfb4-440c-8f46-fab47df81957")
-		(property "Reference" "C7"
-			(at 25.4 138.684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 26.67 140.9701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 22.86 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KP5NNNC_1uF-105-10-10V_C14445.html"
-			(at 20.32 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C14445"
-			(at 17.78 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "affb6e0c-8180-4e99-b6e7-97698da1077a")
-		)
-		(pin "2"
-			(uuid "d25ac43c-ae40-4ae5-8a41-9fb95f8055e1")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7807,83 +3975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:0402WGF1801TCE")
-		(at 25.4 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e297f8c-776e-4c5e-9c64-2bc2fe6cd533")
-		(property "Reference" "R9"
-			(at 25.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.8k"
-			(at 25.4 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:R0402"
-			(at 25.4 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-8KR-1801-1_C25871.html"
-			(at 25.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25871"
-			(at 25.4 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a46b6b5f-481c-47ad-b74a-c0fb54d97087")
-		)
-		(pin "1"
-			(uuid "92c93000-a28c-49ac-a95a-bd20041ee021")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MeshDeck:SX1262S8S+T-X1")
 		(at 254 77.47 0)
 		(unit 1)
@@ -8002,17 +4093,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 26.67 193.04 0)
+		(lib_id "MeshDeck:4*4*1.7")
+		(at 96.52 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32cbdab9-7f42-4c66-a801-5d899bc92f64")
-		(property "Reference" "#PWR021"
-			(at 26.67 199.39 0)
+		(uuid "32626759-5e22-40c1-a486-6c00afdfd55c")
+		(property "Reference" "SW2"
+			(at 96.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4*4*1.7"
+			(at 96.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MeshDeck:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.5"
+			(at 96.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,89 +4126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 26.67 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "325cd01b-9039-4d06-b371-905d00806532")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CR0402JF01R5G")
-		(at 76.2 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36810372-d8a6-47e2-878e-1a04ceae0c14")
-		(property "Reference" "R8"
-			(at 75.946 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5K"
-			(at 76.2 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:R0402"
-			(at 76.2 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Resistors_LIZ-Elec-CR0402JF01R5G_C100605.html"
-			(at 76.2 163.83 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_4-4-1-7-Plastic-head_C10852.html"
+			(at 96.52 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +4136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 153.67 0)
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,8 +4144,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C100605"
-			(at 76.2 166.37 0)
+		(property "LCSC Part" "C10852"
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,107 +4154,37 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4486dda-cba3-4bfe-a148-5aed5f220ccb")
+			(uuid "4b3d33e5-360b-4bb0-8f5e-353b3c0adabd")
 		)
 		(pin "2"
-			(uuid "ba520ee5-b3b7-4759-9faf-9ceb54ffac55")
+			(uuid "8b24a27e-598d-430a-b055-253af8c8f1bc")
+		)
+		(pin "4"
+			(uuid "14465df8-2b09-4e3f-a337-26dc7d351d68")
+		)
+		(pin "3"
+			(uuid "693a9812-6a37-4dc9-b335-03a3b9af8dee")
 		)
 		(instances
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "R8")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 33.02 0)
+		(lib_id "MeshDeck:0402WGF1002TCE")
+		(at 148.59 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3eb42dc7-886b-498a-82dd-065813b1def0")
-		(property "Reference" "#PWR02"
-			(at 25.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ef10846-4345-4819-a246-c2042ea74b79")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "468bf281-f20d-4faf-a66f-36f391fe6a96")
-		(property "Reference" "#PWR011"
-			(at 31.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 93.9799 90)
+		(uuid "33e07716-dee7-497a-9bbd-98d3eeb8404f")
+		(property "Reference" "R16"
+			(at 151.13 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,8 +4192,17 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 38.1 93.98 0)
+		(property "Value" "10k"
+			(at 146.812 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MeshDeck:R0402"
+			(at 156.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,8 +4210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 93.98 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html"
+			(at 158.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,8 +4219,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 93.98 0)
+		(property "Description" ""
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 161.29 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,12 +4238,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "746bb78a-7775-44de-aad5-d3c6048b1b4e")
+			(uuid "bcb7d04f-dfe6-4a20-9d5b-8daf285082bf")
+		)
+		(pin "2"
+			(uuid "268bb9ea-d39c-490a-929e-80fc61c9dbce")
+		)
+		(instances
+			(project ""
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MeshDeck:0402WGF0000TCE")
+		(at 113.03 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c13ac33-0cb5-42ba-a379-af93cb41b00e")
+		(property "Reference" "R12"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 Ohm"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MeshDeck:R0402"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20961988-d406-49c6-be6e-d113cbc45bef")
+		)
+		(pin "1"
+			(uuid "afa2d662-560c-4f0a-989b-a9cb322fd8a5")
 		)
 		(instances
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR011")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8278,7 +4330,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 66.04 0)
+		(at 107.95 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8287,7 +4339,7 @@
 		(fields_autoplaced yes)
 		(uuid "49387063-3e49-44e6-b3f1-1c2c75316a09")
 		(property "Reference" "#PWR05"
-			(at 39.37 72.39 0)
+			(at 107.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,15 +4348,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 71.12 0)
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 66.04 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +4366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 66.04 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,7 +4375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 66.04 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,360 +4390,6 @@
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:0402WGF5101TCE")
-		(at 24.13 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50e92fe6-1884-462b-9684-30cc0a314fc7")
-		(property "Reference" "R6"
-			(at 24.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 24.13 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:R0402"
-			(at 24.13 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html"
-			(at 24.13 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25905"
-			(at 24.13 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27078135-9e80-423f-8a10-5a3acda1da10")
-		)
-		(pin "1"
-			(uuid "397e699f-4333-4a2b-8199-0217665644bd")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "510d93d5-155d-4f6f-a926-5313888cb8d7")
-		(property "Reference" "#PWR020"
-			(at 30.48 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40e55ba0-d3ed-4cd0-84b8-b91f751afb44")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51239bda-3ddd-48ab-81c8-352bc9084d9f")
-		(property "Reference" "#PWR022"
-			(at 121.92 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af152583-caee-4717-975a-a1dc1fb440b7")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:0402WGF5101TCE")
-		(at 24.13 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53cd30a4-6c0d-461d-a877-3d7d450f94de")
-		(property "Reference" "R5"
-			(at 24.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 24.13 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:R0402"
-			(at 24.13 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html"
-			(at 24.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25905"
-			(at 24.13 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9fab1ac-f9d1-40a2-88af-978d9717f9c2")
-		)
-		(pin "1"
-			(uuid "81c09c94-77cc-4da9-9876-020f1fa036b6")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 148.59 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e23e7b1-b554-40cd-86b9-9b0a8b68576e")
-		(property "Reference" "#PWR025"
-			(at 144.78 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 152.4 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58dab83a-9460-453a-b2dd-7a187a1c109e")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8890,32 +4589,32 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:CL05A475MP5NRNC")
-		(at 26.67 187.96 270)
+		(lib_id "MeshDeck:0402WGF0000TCE")
+		(at 165.1 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "620c7fb5-7589-4e84-84d1-df40872b425d")
-		(property "Reference" "C8"
-			(at 33.02 187.96 0)
+		(uuid "7a9c4a01-7fe4-4153-a8cf-e4dd5b264e95")
+		(property "Reference" "R15"
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7 uF"
-			(at 32.004 191.262 90)
+		(property "Value" "0 Ohm"
+			(at 165.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 19.05 187.96 0)
+		(property "Footprint" "MeshDeck:R0402"
+			(at 165.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,8 +4622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A475MP5NRNC_4-7uF-475-20-10V_C23733.html"
-			(at 16.51 187.96 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +4632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 187.96 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,152 +4640,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23733"
-			(at 13.97 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22f7d7c2-73a1-4f0c-a699-bbbd09e0544f")
-		)
-		(pin "2"
-			(uuid "eff84d7a-7a63-4c0a-9956-68581dcdb867")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "626e574e-06dc-46e1-af23-664b95948597")
-		(property "Reference" "#PWR09"
-			(at 31.75 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81f246a8-5e04-4bb2-8ab0-e665749c4d4d")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CL05A106MQ5NUNC")
-		(at 139.7 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6415d119-b00e-48ed-b09c-725e4b4ac5a5")
-		(property "Reference" "C12"
-			(at 140.462 167.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 135.382 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 147.32 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A106MQ5NUNC_10uF-106-20-6-3V_C15525.html"
-			(at 149.86 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C15525"
-			(at 152.4 168.91 0)
+		(property "LCSC Part" "C17168"
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,316 +4650,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0e99659f-a7b5-4b39-94f0-18b79605d3b7")
+			(uuid "1c4fe750-c9d0-4e2a-91a9-a7d69d3dbfd7")
 		)
 		(pin "1"
-			(uuid "39cea0ae-2194-4566-b0c2-fd97d06bc51e")
+			(uuid "13f70322-b47d-4ea1-8c77-b46c9e77c8b9")
 		)
 		(instances
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64ce035f-3388-4367-9835-ffb68109738e")
-		(property "Reference" "#PWR03"
-			(at 33.02 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10429b2f-bb38-4154-a122-1fca507a8ea8")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CL05A105KP5NNNC")
-		(at 44.45 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "676bab6d-9fb1-41e3-befb-6509a0b4b604")
-		(property "Reference" "C3"
-			(at 48.26 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 48.26 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 52.07 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KP5NNNC_1uF-105-10-10V_C14445.html"
-			(at 54.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C14445"
-			(at 57.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fc8f38b-2554-4fb4-aecf-b85bdbb72c4a")
-		)
-		(pin "2"
-			(uuid "a95acabf-f388-4347-99b1-1c80335de2a8")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a9bbc26-0bb0-43be-8dcd-d2c7e3b299f2")
-		(property "Reference" "#PWR07"
-			(at 219.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d57a3c00-ad16-485e-842f-b132bb0acae9")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:USBLC6-2P6")
-		(at 53.34 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a8799ca-c4c5-4ede-a75e-75f764e99315")
-		(property "Reference" "D1"
-			(at 53.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USBLC6-2P6"
-			(at 53.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:SOT-666-6_L1.6-W1.2-P0.50-LS1.6-BR"
-			(at 53.34 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2P6_USBLC6-2P6_C15999.html"
-			(at 53.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C15999"
-			(at 53.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e88da484-2cda-4eb9-8ee3-c939c7588289")
-		)
-		(pin "6"
-			(uuid "215c1e80-55c5-4e74-8553-939da3471f6e")
-		)
-		(pin "1"
-			(uuid "da2caae1-b877-4c29-a9bb-c976f235c5c7")
-		)
-		(pin "3"
-			(uuid "d5e041f5-fada-44e7-a15a-9dcb6124ff02")
-		)
-		(pin "2"
-			(uuid "291b9b22-31fc-492d-91a2-9ded12cc96e2")
-		)
-		(pin "4"
-			(uuid "c761b6c2-9cd2-46cc-9e73-2bc05bf75877")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "D1")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9412,85 +4666,7 @@
 	)
 	(symbol
 		(lib_id "MeshDeck:CL05B104KO5NNNC")
-		(at 33.02 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86c00901-5843-4972-843e-8cb8ab794b8a")
-		(property "Reference" "C2"
-			(at 36.83 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 36.83 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 25.4 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
-			(at 22.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C1525"
-			(at 20.32 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab988aaa-bd64-46ab-a315-e3b3c9b8c316")
-		)
-		(pin "1"
-			(uuid "40402b80-f4fd-462b-99ab-84711bd33eb7")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CL05B104KO5NNNC")
-		(at 39.37 60.96 270)
+		(at 107.95 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9498,7 +4674,7 @@
 		(dnp no)
 		(uuid "875d0b4b-8297-44e2-8d55-d385c42895f1")
 		(property "Reference" "C4"
-			(at 43.18 59.6899 90)
+			(at 111.76 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +4683,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 43.18 62.2299 90)
+			(at 111.76 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +4692,7 @@
 			)
 		)
 		(property "Footprint" "MeshDeck:C0402"
-			(at 31.75 60.96 0)
+			(at 100.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +4701,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
-			(at 29.21 60.96 0)
+			(at 97.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,7 +4710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 60.96 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +4719,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 26.67 60.96 0)
+			(at 95.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,16 +4743,25 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:CL05A106MQ5NUNC")
-		(at 134.62 168.91 90)
+		(lib_id "power:GND")
+		(at 134.62 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8e931eed-7f3a-47a8-88e9-1d714fd38e06")
-		(property "Reference" "C11"
-			(at 130.556 167.64 90)
+		(uuid "98ebb0b2-51cf-4ffb-a94f-0fc8d52e2c63")
+		(property "Reference" "#PWR07"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 131.572 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,17 +4769,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 129.794 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 142.24 168.91 0)
+		(property "Footprint" ""
+			(at 134.62 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,8 +4778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A106MQ5NUNC_10uF-106-20-6-3V_C15525.html"
-			(at 144.78 168.91 0)
+		(property "Datasheet" ""
+			(at 134.62 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,113 +4787,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 168.91 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC Part" "C15525"
-			(at 147.32 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c1fb1bd-5dad-44c2-b83d-e4544949775e")
 		)
 		(pin "1"
-			(uuid "da758861-f545-42d2-8122-951e2c029fd7")
+			(uuid "5a60b7b1-52b4-4871-ae1d-73c40ccc5769")
 		)
 		(instances
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:QR0402F1KQ10")
-		(at 44.45 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a243f06-6ca0-4402-bf3e-bf7256533c08")
-		(property "Reference" "R1"
-			(at 46.99 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10KOhm"
-			(at 46.99 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MeshDeck:R0402"
-			(at 52.07 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Ever-Ohms-Tech-QR0402F1KQ10_C176101.html"
-			(at 54.61 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C176101"
-			(at 57.15 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae2183af-32d8-48c4-ac68-350d29d72eae")
-		)
-		(pin "2"
-			(uuid "1c9f8e3d-417f-48ba-bde5-00e4fee3d5b2")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "R1")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9725,16 +4810,15 @@
 	)
 	(symbol
 		(lib_id "MeshDeck:4*4*1.7")
-		(at 27.94 59.69 0)
+		(at 96.52 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9fb35e90-e7ac-43c4-bdb6-4d3a5f8cbcb1")
 		(property "Reference" "SW1"
-			(at 27.94 50.8 0)
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9742,7 +4826,7 @@
 			)
 		)
 		(property "Value" "4*4*1.7"
-			(at 27.94 53.34 0)
+			(at 96.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,7 +4834,7 @@
 			)
 		)
 		(property "Footprint" "MeshDeck:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.5"
-			(at 27.94 73.66 0)
+			(at 96.52 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +4843,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_4-4-1-7-Plastic-head_C10852.html"
-			(at 27.94 76.2 0)
+			(at 96.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +4852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 59.69 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +4861,7 @@
 			)
 		)
 		(property "LCSC Part" "C10852"
-			(at 27.94 78.74 0)
+			(at 96.52 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,715 +4891,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:Bluelight0603")
-		(at 66.04 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a972e38c-3b0e-4716-b42d-4c84b1a3ae77")
-		(property "Reference" "LED2"
-			(at 61.468 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Blue light 0603"
-			(at 65.278 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:LED0603-RD"
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Blue-light-0603_C2288.html"
-			(at 66.04 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2288"
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bccfc0ac-13cc-4b28-8c7a-69133c7b6734")
-		)
-		(pin "2"
-			(uuid "86a08829-0dc2-4b58-a931-f87a9fa4b1cc")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 20.32 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b403d232-23fa-43a3-8ef7-0ece58ce6c1d")
-		(property "Reference" "#PWR019"
-			(at 13.97 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 16.51 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a32a436-a2c6-44a1-bd0a-899605c0189f")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb2f7252-2bf3-44bd-b092-36fe49c946be")
-		(property "Reference" "#PWR024"
-			(at 134.62 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55ff0e2b-f439-4dbf-ab12-5a39b1862c16")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc966adc-34c0-4a77-b34b-c61fda47748f")
-		(property "Reference" "#PWR04"
-			(at 44.45 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38c19098-96b7-414a-b0ff-06ad2d48aa3b")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd79f210-7e82-47b2-8c75-73783b4a05c9")
-		(property "Reference" "#PWR010"
-			(at 31.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44b62464-09f3-4739-99c5-fffcc3855f79")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:0805G(Green)")
-		(at 66.04 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdcbed2c-ee25-4784-a285-1b7d873aa6ad")
-		(property "Reference" "LED1"
-			(at 59.944 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0805G (Green)"
-			(at 66.04 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:LED0805-R-RD"
-			(at 66.04 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Green-0805-Highlighted_C2297.html"
-			(at 66.04 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2297"
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "514c1102-2162-407f-bf97-992c284ae1ac")
-		)
-		(pin "1"
-			(uuid "544024df-52ba-4443-b592-a58b302d77f5")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CL05B104KO5NNNC")
-		(at 77.47 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfab32da-6cd2-47c2-b7cf-7ad51b6fd19e")
-		(property "Reference" "C5"
-			(at 78.7401 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 75.692 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
-			(at 77.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C1525"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e8e202c9-4f50-4da4-a919-a164e36da116")
-		)
-		(pin "1"
-			(uuid "fef7cb7d-519c-47b3-be43-aac109558117")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bffa52c0-2376-4ba7-81dd-f73933ea92bd")
-		(property "Reference" "#PWR014"
-			(at 38.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d8df1f7-f7d3-403a-80b1-b9634a5a5dc1")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 170.18 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c078f100-9121-40db-ab88-647f92fc05b5")
-		(property "Reference" "#PWR026"
-			(at 173.99 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 166.37 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd8e5e29-63ad-4721-a572-1d4c8f8309e6")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CL05A226MQ5QUNC")
-		(at 25.4 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1477b43-e59e-444f-b62b-68eb1c08e0c9")
-		(property "Reference" "C1"
-			(at 29.21 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 20.32 25.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 17.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C105226"
-			(at 15.24 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2686ca0e-c5e6-46e4-bfae-bb7dffaf8d3a")
-		)
-		(pin "1"
-			(uuid "aeeebe76-2644-4d61-a32b-5f0e69e3f520")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MeshDeck:0402WGF0000TCE")
-		(at 44.45 55.88 0)
+		(at 113.03 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10523,7 +4900,7 @@
 		(dnp no)
 		(uuid "c84658a3-1f70-428d-8c3b-29dc04d0ce14")
 		(property "Reference" "R2"
-			(at 44.45 58.42 0)
+			(at 113.03 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10531,7 +4908,7 @@
 			)
 		)
 		(property "Value" "0 Ohm"
-			(at 44.45 52.07 0)
+			(at 113.03 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +4916,7 @@
 			)
 		)
 		(property "Footprint" "MeshDeck:R0402"
-			(at 44.45 63.5 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,7 +4925,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
-			(at 44.45 66.04 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,7 +4934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 55.88 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +4943,7 @@
 			)
 		)
 		(property "LCSC Part" "C17168"
-			(at 44.45 68.58 0)
+			(at 113.03 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,205 +4961,6 @@
 			(project ""
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 154.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d07cff74-1a0c-44a0-bd15-ea94272229f8")
-		(property "Reference" "#PWR023"
-			(at 119.38 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8546009e-7ee3-41c1-b6d4-1ee0dd063dc0")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 19.05 171.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4af9930-b9e4-4f50-9779-c5b5c48f94cc")
-		(property "Reference" "#PWR018"
-			(at 12.7 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 15.24 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e8d995d-85f9-4d64-8eb0-0f07b00b84c3")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2784711-06e5-4eb1-872f-00b62fca3de6")
-		(property "Reference" "#PWR012"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.058 93.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c26e1aa2-54a9-44f5-a532-52392a4210c3")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10855,32 +5033,35 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:LSCNB1005EETR47MB")
-		(at 120.65 167.64 0)
+		(lib_id "MeshDeck:QR0402F1KQ10")
+		(at 120.65 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f134dc29-43e0-44cf-8c47-8006c0e9845c")
-		(property "Reference" "L1"
-			(at 120.65 161.29 0)
+		(fields_autoplaced yes)
+		(uuid "ead8a998-69aa-4173-b772-1fa13e4d9fad")
+		(property "Reference" "R13"
+			(at 123.19 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0.47 µH"
-			(at 120.904 168.656 0)
+		(property "Value" "10KOhm"
+			(at 123.19 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MeshDeck:L0402"
-			(at 120.65 175.26 0)
+		(property "Footprint" "MeshDeck:R0402"
+			(at 128.27 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10888,8 +5069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 120.65 167.64 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Ever-Ohms-Tech-QR0402F1KQ10_C176101.html"
+			(at 130.81 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10898,7 +5079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 167.64 0)
+			(at 120.65 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10906,8 +5087,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5788770"
-			(at 120.65 177.8 0)
+		(property "LCSC Part" "C176101"
+			(at 133.35 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10916,15 +5097,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6ae9417-7209-4fa8-9fcc-3f7514898aed")
+			(uuid "b3e395b9-9fc7-4173-8754-3e1b82e88997")
 		)
 		(pin "2"
-			(uuid "5dce9c53-414f-42ac-ad5d-6ce217f023cd")
+			(uuid "c8276ed3-23b7-4760-b30f-2be99610b39d")
 		)
 		(instances
-			(project ""
+			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "L1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10932,224 +5113,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 13.97 80.01 180)
+		(at 107.95 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f4ad80dc-a9e5-4df1-9dbc-6b4f8afad9df")
-		(property "Reference" "#PWR013"
-			(at 13.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 13.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 13.97 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 13.97 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 13.97 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5441707d-b042-45e9-879e-e40b7357d592")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6b158ad-e8ea-4c4c-8819-37a85137bce7")
-		(property "Reference" "#PWR015"
-			(at 66.04 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbf270d0-888c-4cff-85fc-1c41d3727832")
-		)
-		(instances
-			(project ""
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MeshDeck:CL05A475MP5NRNC")
-		(at 119.38 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc810d40-749f-4b94-8578-613eeadcfb9a")
-		(property "Reference" "C9"
-			(at 122.682 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7 uF"
-			(at 123.444 156.972 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MeshDeck:C0402"
-			(at 127 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A475MP5NRNC_4-7uF-475-20-10V_C23733.html"
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C23733"
-			(at 132.08 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b61680a5-9265-4b13-8284-39e73a9e7553")
-		)
-		(pin "2"
-			(uuid "d24062c6-9c7f-4739-911b-cc0f8d1df24a")
-		)
-		(instances
-			(project "MeshDeck"
-				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 25.4 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdbca77e-8b99-4d86-a765-a632a34488ee")
+		(uuid "ee292aae-5b20-4db1-bb1a-2dbc6335e76f")
 		(property "Reference" "#PWR01"
-			(at 25.4 26.67 0)
+			(at 107.95 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,16 +5130,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 25.4 17.78 0)
+		(property "Value" "GND"
+			(at 107.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 22.86 0)
+			(at 107.95 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11175,7 +5149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 22.86 0)
+			(at 107.95 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,8 +5157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 22.86 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,10 +5167,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7905d3ff-5bf2-48ec-abfd-210a4dc86fad")
+			(uuid "a663cf2d-b172-47e0-b0ac-58c52e0d216c")
 		)
 		(instances
-			(project ""
+			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
 					(reference "#PWR01")
 					(unit 1)
@@ -11205,24 +5179,24 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:0402WGF1801TCE")
-		(at 25.4 151.13 0)
+		(lib_id "MeshDeck:0402WGF0000TCE")
+		(at 165.1 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ff2c6973-3311-4e3c-beba-5c9f48492d18")
-		(property "Reference" "R10"
-			(at 25.4 153.67 0)
+		(uuid "ff1014ac-4494-4d05-8f53-779ccde280c5")
+		(property "Reference" "R14"
+			(at 165.1 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.8k"
-			(at 25.4 148.844 0)
+		(property "Value" "0 Ohm"
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +5204,7 @@
 			)
 		)
 		(property "Footprint" "MeshDeck:R0402"
-			(at 25.4 158.75 0)
+			(at 165.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,8 +5212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-8KR-1801-1_C25871.html"
-			(at 25.4 161.29 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
+			(at 165.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11248,7 +5222,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 151.13 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,8 +5230,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25871"
-			(at 25.4 163.83 0)
+		(property "LCSC Part" "C17168"
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,16 +5240,160 @@
 			)
 		)
 		(pin "2"
-			(uuid "0c799cec-cffb-4e8b-b47f-1b99f83d57a6")
+			(uuid "37d9d4a7-5a64-4a20-af3f-3c4df6dcc086")
 		)
 		(pin "1"
-			(uuid "86767ddd-3104-4b46-90cc-699189a89382")
+			(uuid "684abcbb-2e5e-4e5f-9021-6ac74be8d7de")
 		)
 		(instances
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 52.07)
+		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c4e5ef5-0ffe-4f23-af51-9d23eacc314a")
+		(property "Sheetname" "USBSheet"
+			(at 91.44 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBSheet.kicad_sch"
+			(at 91.44 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" output
+			(at 91.44 54.61 180)
+			(uuid "fd31a006-36ec-4d20-b30c-3d14786254a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" output
+			(at 107.95 53.34 0)
+			(uuid "d06856be-1c32-4b3f-9e62-e99813fbac47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" output
+			(at 107.95 55.88 0)
+			(uuid "9b003a30-cabd-4fa5-9449-4f0087092707")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 41.91)
+		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b777f031-ef15-4cbd-b6d4-fc929f476bf8")
+		(property "Sheetname" "Power Sheet"
+			(at 91.44 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSheet.kicad_sch"
+			(at 91.44 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 107.95 43.18 0)
+			(uuid "c24ac9b9-ed9d-47d8-a818-d1cb084b2ea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 91.44 44.45 180)
+			(uuid "737fc7c6-2480-412c-af1b-8b733952a3c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" output
+			(at 107.95 45.72 0)
+			(uuid "db5dc4a9-5c52-4533-9aff-c14f46f97262")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed"
+					(page "2")
 				)
 			)
 		)
