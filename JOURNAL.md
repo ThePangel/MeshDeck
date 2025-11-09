@@ -20,3 +20,9 @@ So I've been all afternoon reading datasheets and documentation, It's a lot lmao
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODc0NiwicHVyIjoiYmxvYl9pZCJ9fQ==--7823cd6b0ed5c5fa910bfe5a25e87bd1b9103b16/image.png)
   
 
+## 11/9/2025 - Charging IC circuit   
+
+After like an a couple of hours of reading a datasheet, finding components, etc, I have finished my charging circuit with the BQ24074RGTR as the brains!
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTc1MCwicHVyIjoiYmxvYl9pZCJ9fQ==--6db17ea34a84ff7db8e2888dffbfd49ea1b7de91/image.png)
+  
+
