@@ -32,3 +32,9 @@ To step down the battery voltage to 3.3V i added a TPS6282533DMQ set down conver
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTc2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--ec4888cf4eb6b446aefdd227c4cb9296bbe64908/image.png)
   
 
+## 11/9/2025 5 PM - Added crystal oscillator and also tidied up the schematic   
+
+I added a 32.768KHz crystal as an external clocked like stated in the esp datasheet, it is optional but I rather include it because wifi and ble require precise timing, I also made subsheets, also the boot button
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTc4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--7d8e2937db9e073d3028dcd778cf0c07c8756ed4/image.png)
+  
+
