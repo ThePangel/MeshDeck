@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.55001,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -624,6 +624,10 @@
     [
       "5c4e5ef5-0ffe-4f23-af51-9d23eacc314a",
       "USBSheet"
+    ],
+    [
+      "2b0f7d71-e411-4678-8f7f-9eb71f89e2e2",
+      "Keyboard"
     ]
   ],
   "text_variables": {}
