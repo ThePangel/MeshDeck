@@ -2559,7 +2559,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C176101"
+			(property "LCSC Part" "C25531"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2569,6 +2569,113 @@
 				)
 			)
 			(symbol "QR0402F1KQ10_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MeshDeck:RC0603FR-07100KL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-07100KL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MeshDeck:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C14675.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C14675"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-07100KL_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -3191,6 +3298,220 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "QR0402F1KQ10_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "QR0402F1KQ10"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MeshDeck:R0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Ever-Ohms-Tech-QR0402F1KQ10_C176101.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25531"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "QR0402F1KQ10_1_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "QR0402F1KQ10_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "QR0402F1KQ10"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MeshDeck:R0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Ever-Ohms-Tech-QR0402F1KQ10_C176101.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25531"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "QR0402F1KQ10_2_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3442,6 +3763,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5a87f36-5c41-4bae-9d6a-688854390272")
+	)
+	(junction
+		(at 30.48 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f28d6008-2765-4e50-8eba-d2fe2a7ae40a")
 	)
 	(junction
 		(at 194.31 36.83)
@@ -3865,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 66.04) (xy 52.07 71.12)
+			(xy 30.48 74.93) (xy 30.48 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4124,7 +4451,7 @@
 		(uuid "4075a2e9-193b-432c-9c96-2172936e42a1")
 	)
 	(label "BAT"
-		(at 52.07 66.04 270)
+		(at 30.48 74.93 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4204,6 +4531,17 @@
 		)
 		(uuid "3f9936ef-6fe6-455a-a4bd-d535e53658a7")
 	)
+	(hierarchical_label "BTR_LVL"
+		(shape input)
+		(at 40.64 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3d93f54-43d3-471f-8e1f-b986e3b03568")
+	)
 	(hierarchical_label "EN"
 		(shape output)
 		(at 53.34 39.37 0)
@@ -4278,7 +4616,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C100605"
+		(property "LCSC Part" "C25867"
 			(at 127 55.88 0)
 			(effects
 				(font
@@ -4370,6 +4708,7 @@
 		)
 	)
 	(symbol
+		(lib_name "QR0402F1KQ10_2")
 		(lib_id "MeshDeck:QR0402F1KQ10")
 		(at 194.31 31.75 90)
 		(unit 1)
@@ -4423,7 +4762,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C176101"
+		(property "LCSC Part" "C25531"
 			(at 207.01 31.75 0)
 			(effects
 				(font
@@ -5453,7 +5792,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C100605"
+		(property "LCSC Part" "C25867"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -5538,6 +5877,83 @@
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed/b777f031-ef15-4cbd-b6d4-fc929f476bf8"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MeshDeck:RC0603FR-07100KL")
+		(at 35.56 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b30a166-4aad-4f86-bb7e-e0044f86ec8a")
+		(property "Reference" "R62"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MeshDeck:R0603"
+			(at 35.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C14675.html"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14675"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9706fbe0-23a2-4949-96eb-3a5745efdf6d")
+		)
+		(pin "1"
+			(uuid "d1691ba9-a615-4dc8-9db9-83068b9320fa")
+		)
+		(instances
+			(project ""
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed/b777f031-ef15-4cbd-b6d4-fc929f476bf8"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -5754,7 +6170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 78.74 270)
+		(at 22.86 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5763,7 +6179,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f02a0f5-2df9-4712-9172-7cc038568987")
 		(property "Reference" "#PWR050"
-			(at 38.1 78.74 0)
+			(at 16.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +6188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 78.7399 90)
+			(at 19.05 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +6197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 78.74 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +6206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 78.74 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +6215,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 78.74 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,33 +6812,33 @@
 		)
 	)
 	(symbol
-		(lib_id "MeshDeck:WAFER-PH2.0-2PWB")
-		(at 50.8 76.2 270)
+		(lib_id "MeshDeck:RC0603FR-07100KL")
+		(at 45.72 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ff7aded-3346-49b5-ac15-367a909c34d5")
-		(property "Reference" "H1"
-			(at 50.8 83.82 90)
+		(uuid "7cac494a-0d99-4d54-a0b6-4b8ec94bfe59")
+		(property "Reference" "R63"
+			(at 45.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WAFER-PH2.0-2PWB"
-			(at 50.8 86.36 90)
+		(property "Value" "100k"
+			(at 45.72 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MeshDeck:CONN-SMD_2P-P2.00_XUNPU_WAFER-PH2.0-2PWB"
-			(at 36.83 76.2 0)
+		(property "Footprint" "MeshDeck:R0603"
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,8 +6846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 50.8 76.2 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C14675.html"
+			(at 45.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6856,84 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 76.2 0)
+			(at 45.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14675"
+			(at 45.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f385c66-a62e-4946-9c70-a0dd93ccb9ba")
+		)
+		(pin "1"
+			(uuid "283b7c71-79b8-4f0a-a5a8-4c3b285689d9")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed/b777f031-ef15-4cbd-b6d4-fc929f476bf8"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MeshDeck:WAFER-PH2.0-2PWB")
+		(at 29.21 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff7aded-3346-49b5-ac15-367a909c34d5")
+		(property "Reference" "H1"
+			(at 29.21 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WAFER-PH2.0-2PWB"
+			(at 29.21 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MeshDeck:CONN-SMD_2P-P2.00_XUNPU_WAFER-PH2.0-2PWB"
+			(at 15.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6942,7 @@
 			)
 		)
 		(property "LCSC Part" "C3029440"
-			(at 34.29 76.2 0)
+			(at 12.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +7248,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C176101"
+		(property "LCSC Part" "C25531"
 			(at 59.69 30.48 0)
 			(effects
 				(font
@@ -6780,6 +7273,7 @@
 		)
 	)
 	(symbol
+		(lib_name "QR0402F1KQ10_1")
 		(lib_id "MeshDeck:QR0402F1KQ10")
 		(at 176.53 88.9 180)
 		(unit 1)
@@ -6832,7 +7326,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C176101"
+		(property "LCSC Part" "C25531"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -6858,16 +7352,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 78.74 90)
+		(at 35.56 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6b59083-409f-4e11-ba3b-8f9f20934eb5")
 		(property "Reference" "#PWR051"
-			(at 63.5 78.74 0)
+			(at 41.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +7369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 78.7399 90)
+			(at 33.528 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +7378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 78.74 0)
+			(at 35.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +7387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 78.74 0)
+			(at 35.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +7396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 78.74 0)
+			(at 35.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7561,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 71.12 270)
+		(at 27.94 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7077,7 +7570,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4d927fd-2143-4d99-a181-f781424c91d2")
 		(property "Reference" "#PWR049"
-			(at 43.18 71.12 0)
+			(at 21.59 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 71.1199 90)
+			(at 24.13 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 71.12 0)
+			(at 27.94 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 71.12 0)
+			(at 27.94 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7606,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 71.12 0)
+			(at 27.94 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,6 +8239,71 @@
 			(project "MeshDeck"
 				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed/b777f031-ef15-4cbd-b6d4-fc929f476bf8"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d725fcc3-a8ef-493d-a4e5-516ce16e31d4")
+		(property "Reference" "#PWR0106"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.054 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572cdaea-d55a-4a49-b1e7-8167457310b6")
+		)
+		(instances
+			(project "MeshDeck"
+				(path "/57a665bf-6d32-4f6f-a635-a071efc93fed/b777f031-ef15-4cbd-b6d4-fc929f476bf8"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
