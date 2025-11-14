@@ -3362,7 +3362,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 119.38) (xy 162.56 119.38)
+			(xy 175.26 119.38) (xy 162.56 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3419,16 +3419,6 @@
 			(type default)
 		)
 		(uuid "194983e2-9a3f-473c-b8d3-2ea165c7760e")
-	)
-	(wire
-		(pts
-			(xy 168.91 73.66) (xy 162.56 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a106e60-371b-4254-91ba-dc00758b6dd6")
 	)
 	(wire
 		(pts
@@ -3902,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a971df9-8a92-4f04-a32e-4bcef21a34e9")
+	)
+	(wire
+		(pts
 			(xy 200.66 27.94) (xy 213.36 27.94)
 		)
 		(stroke
@@ -4032,16 +4032,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 128.27) (xy 210.82 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8effb7c2-6558-45f2-8a4e-1fceb12968b7")
-	)
-	(wire
-		(pts
 			(xy 162.56 76.2) (xy 170.18 76.2)
 		)
 		(stroke
@@ -4099,6 +4089,16 @@
 			(type default)
 		)
 		(uuid "a1d80089-1e2f-4027-b9de-47546e55afb0")
+	)
+	(wire
+		(pts
+			(xy 210.82 128.27) (xy 215.9 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c6d636-82a4-4fb4-8296-efbe24ca2ed2")
 	)
 	(wire
 		(pts
@@ -4680,7 +4680,7 @@
 		)
 		(uuid "276aa50c-1a96-43de-8069-41e89fba64d4")
 	)
-	(label "GPBOOT"
+	(label "GPIO0"
 		(at 168.91 66.04 180)
 		(effects
 			(font
@@ -4800,8 +4800,8 @@
 		)
 		(uuid "4dbf860d-03f7-425b-8248-7cb4c46c7e3e")
 	)
-	(label "GPTCH_CS"
-		(at 170.18 119.38 180)
+	(label "GPIO21"
+		(at 175.26 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4829,16 +4829,6 @@
 			(justify right bottom)
 		)
 		(uuid "58ae25bc-2286-410b-a17c-6be0727b4f2b")
-	)
-	(label "GPGPS_PPS"
-		(at 217.17 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5fd999b9-ecd6-4e82-9a9e-19915c79e7f9")
 	)
 	(label "GPIO20"
 		(at 191.77 130.81 0)
@@ -4870,7 +4860,7 @@
 		)
 		(uuid "6bca1e1b-16fa-4520-aedc-e12496671f3a")
 	)
-	(label "GPBOOT"
+	(label "GPIO0"
 		(at 191.77 125.73 0)
 		(effects
 			(font
@@ -4980,6 +4970,16 @@
 		)
 		(uuid "9e2bce8e-b8c0-4e41-83ce-75edb3465520")
 	)
+	(label "GPIO3"
+		(at 170.18 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a154a505-89f2-4d3c-91f7-8969d1356341")
+	)
 	(label "COL3"
 		(at 199.39 81.28 270)
 		(effects
@@ -5059,16 +5059,6 @@
 			(justify right bottom)
 		)
 		(uuid "adc601b8-0249-4f86-80e7-7aa0b9e45fd4")
-	)
-	(label "GPGPS_PPS"
-		(at 168.91 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af5e1def-38fd-4ac7-93b4-8ab386100afb")
 	)
 	(label "GPIO24"
 		(at 191.77 135.89 0)
@@ -5150,7 +5140,7 @@
 		)
 		(uuid "ca5a074f-3871-4988-be8e-7d26d7b6b10e")
 	)
-	(label "GPTCH_CS"
+	(label "GPIO21"
 		(at 218.44 130.81 180)
 		(effects
 			(font
@@ -5269,6 +5259,16 @@
 			(justify left bottom)
 		)
 		(uuid "f42681ff-e4da-4a47-a943-0d058d8c0269")
+	)
+	(label "GPIO3"
+		(at 215.9 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5ba2d65-dafe-435c-b7d8-37add556bfd6")
 	)
 	(label "QSPI_SD3"
 		(at 87.63 78.74 0)

@@ -4994,6 +4994,12 @@
 		(uuid "00442f82-a01c-402f-9359-42f613a1b4c3")
 	)
 	(junction
+		(at 170.18 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "195482b3-3a75-440e-925d-9274cb80fa06")
+	)
+	(junction
 		(at 193.04 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5046,12 +5052,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fb11ce0-a03a-4f4c-a840-8d1b375f2e43")
-	)
-	(junction
-		(at 168.91 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43abd921-8d5a-43c2-98e5-b2f24d70a994")
 	)
 	(junction
 		(at 147.32 137.16)
@@ -5262,7 +5262,7 @@
 		(uuid "0990d999-8de8-41a7-b953-cca0dca80000")
 	)
 	(bus_entry
-		(at 166.37 74.93)
+		(at 167.64 74.93)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5468,9 +5468,19 @@
 		)
 		(uuid "093fba26-0d05-4c7b-9aef-cb31259f4792")
 	)
+	(bus
+		(pts
+			(xy 170.18 58.42) (xy 170.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098dbcb1-3142-4fef-8036-d9a1d7ab14ac")
+	)
 	(wire
 		(pts
-			(xy 157.48 74.93) (xy 166.37 74.93)
+			(xy 157.48 74.93) (xy 167.64 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6010,7 +6020,7 @@
 	)
 	(bus
 		(pts
-			(xy 161.29 58.42) (xy 168.91 58.42)
+			(xy 161.29 58.42) (xy 170.18 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6107,6 +6117,16 @@
 			(type default)
 		)
 		(uuid "5b02b674-68b8-4ca4-99f4-d6c2ef9b6a4e")
+	)
+	(bus
+		(pts
+			(xy 170.18 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0c2060-6a7e-4bd2-8f65-adfb57ef7182")
 	)
 	(wire
 		(pts
@@ -6308,6 +6328,16 @@
 		)
 		(uuid "7fda460f-400d-4877-8d53-f86dec5b844b")
 	)
+	(bus
+		(pts
+			(xy 170.18 58.42) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e38337-fcff-40a8-aa15-1d0a987c62c0")
+	)
 	(wire
 		(pts
 			(xy 140.97 119.38) (xy 140.97 106.68)
@@ -6317,16 +6347,6 @@
 			(type default)
 		)
 		(uuid "820fbda8-9938-49f7-aa1c-f4ecbf63fb5a")
-	)
-	(bus
-		(pts
-			(xy 168.91 58.42) (xy 209.55 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e9f9c9-3337-4d57-9c6e-2e7aabe60cd2")
 	)
 	(wire
 		(pts
@@ -6347,16 +6367,6 @@
 			(type default)
 		)
 		(uuid "83a22ea6-27c8-4f6b-a746-4a74b9d7c4eb")
-	)
-	(wire
-		(pts
-			(xy 138.43 36.83) (xy 127 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86c3aa3e-e7a2-4d27-b2ad-16f4aeb19ba7")
 	)
 	(wire
 		(pts
@@ -6608,16 +6618,6 @@
 		)
 		(uuid "a648feb8-bce9-4824-9808-8718289048c2")
 	)
-	(bus
-		(pts
-			(xy 168.91 58.42) (xy 168.91 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a795cd4c-c1e3-476c-9dad-f82f83c8b2ac")
-	)
 	(wire
 		(pts
 			(xy 128.27 26.67) (xy 128.27 22.86)
@@ -6758,9 +6758,19 @@
 		)
 		(uuid "ba7edc6c-46c6-42e3-a8de-a6d36a8f071c")
 	)
+	(wire
+		(pts
+			(xy 127 36.83) (xy 144.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac59876-fa6f-4cba-9b3a-a0113b4ca6e2")
+	)
 	(bus
 		(pts
-			(xy 168.91 78.74) (xy 168.91 77.47)
+			(xy 170.18 78.74) (xy 170.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7198,7 +7208,7 @@
 		)
 		(uuid "09872b25-f805-47c9-b02d-6acc93f5af80")
 	)
-	(label "IO42"
+	(label "SCR_LED"
 		(at 162.56 72.39 180)
 		(effects
 			(font
@@ -7268,7 +7278,7 @@
 		)
 		(uuid "2b3c23bf-4132-4f68-bbf5-251a739ad114")
 	)
-	(label "IO10"
+	(label "SCR_RESET"
 		(at 130.81 111.76 90)
 		(effects
 			(font
@@ -7338,7 +7348,7 @@
 		)
 		(uuid "3b17689e-5a9f-41bd-ad51-1b4a18b2e749")
 	)
-	(label "IO42"
+	(label "SCR_LED"
 		(at 201.93 46.99 180)
 		(effects
 			(font
@@ -7378,7 +7388,7 @@
 		)
 		(uuid "3fc33be4-a0d9-404c-925c-7bb900cdafb5")
 	)
-	(label "IO11"
+	(label "SCR_CD"
 		(at 133.35 111.76 90)
 		(effects
 			(font
@@ -7458,7 +7468,7 @@
 		)
 		(uuid "619ee974-1142-4cc1-a4fd-52df4be86f3d")
 	)
-	(label "IO11"
+	(label "SCR_CD"
 		(at 196.85 45.72 180)
 		(effects
 			(font
@@ -7708,7 +7718,7 @@
 		)
 		(uuid "ac575518-da61-4671-9707-490e5d7997d5")
 	)
-	(label "IO10"
+	(label "SCR_RESET"
 		(at 191.77 44.45 180)
 		(effects
 			(font
@@ -7758,7 +7768,7 @@
 		)
 		(uuid "b379ed3f-3583-4720-a96a-893b91c2f19d")
 	)
-	(label "IO48"
+	(label "GPS_EN"
 		(at 138.43 29.21 180)
 		(effects
 			(font
@@ -7838,7 +7848,7 @@
 		)
 		(uuid "bf3ae523-8c87-4456-90ab-f9e573ef2d82")
 	)
-	(label "IO48"
+	(label "GPS_EN"
 		(at 148.59 111.76 90)
 		(effects
 			(font
@@ -8009,7 +8019,7 @@
 		(uuid "eeb9a2a9-35eb-4e1e-bc1c-6fd8756a17fa")
 	)
 	(label "RXD0_ESP"
-		(at 138.43 36.83 180)
+		(at 144.78 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
